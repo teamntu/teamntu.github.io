@@ -1,0 +1,115 @@
+@media screen and (min-width: 1200px){
+	.page-header {
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.page-header > .inner {
+		margin: auto;
+		width: 960px;
+	}
+
+	.page-main {
+		position:fixed;
+		width: 100%;
+		transition:top .5s
+	}
+
+	.page-main > div {
+		padding: 50px 0 50px;
+		background-color:black;
+		height:180px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.page-header {
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.page-header > .inner {
+		margin: auto;
+		width: 793.6px;
+	}
+
+	.page-main {
+		position:fixed;
+		width: 100%;
+		transition:top .5s
+	}
+
+	.page-main > div {
+		padding: 41.33335px 0 41.333335px;
+		background-color:black;
+		height:148.8px;
+	}
+}
+
+
+@media screen and (min-width: 768px) and (max-width:991px){
+	.page-header {
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.page-header > .inner {
+		margin: auto;
+		width: 720px;
+	}
+
+	.page-main {
+		position:fixed;
+		width: 100%;
+		transition:top .5s
+	}
+
+	.page-main > div {
+		padding: 37.5px 0 37.5px;
+		background-color:black;
+		height:135px;
+		margin-top:0px;
+	}
+}
+
+
+
+@media screen and (min-width: 560px) and (max-width:767px){
+	.page-header {
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.page-header > .inner {
+		margin: auto;
+		width: 448px;
+	}
+
+	.page-main {
+		position:fixed;
+		width: 100%;
+		transition:top .5s
+	}
+
+	.page-main > div {
+		padding: 23.3333px 0 23.3333px;
+		background-color:black;
+		height:84px;
+	}
+}
+
+
+
+
+.header2{
+top:0;
+z-index:9999px;
+}
+
+.gizle{
+top:-200px;
+}
