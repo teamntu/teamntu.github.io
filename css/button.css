@@ -246,7 +246,7 @@ button {
 		background-color:#191970;
 		border: none;
 		border-radius: 35px;
-		top:-14px;
+		top:-5px;
 	}
 
 	#buttons2 button:nth-child(1) {left: 55.266667px;}
@@ -267,7 +267,7 @@ button {
 		background-color:#191970;
 		border: none;
 		border-radius:0px;
-		top:-14px;
+		top:-10px;
 	}
 	#buttons2 button:nth-child(7) {left: 337.06639px;}
 	#buttons2 button:nth-child(8) {left: 394.240308px;}

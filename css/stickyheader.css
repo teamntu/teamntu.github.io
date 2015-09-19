@@ -21,10 +21,31 @@
     	background-color:#191970;
 		opacity:0.8;
 		height:180px;
+	
 	}
 
 	.page-main > img {
 		opacity:1;
+	}
+
+	.mobilenav{
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.mobilenav > div{
+		margin-top:-300px;
+	}
+
+
+	.header2{
+		top:0px;
+		z-index:9999px;
+	}		
+
+	.gizle{
+		top:-200px;
 	}
 }
 
@@ -48,10 +69,27 @@
 
 	.page-main > div {
 		padding: 41.33335px 0 41.333335px;
-    	background-color:#191970;
+    	background-color: #191970;
 		opacity:0.8;
 		height:148.8px;
-		margin-top:0px;
+	}
+	.mobilenav{
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.mobilenav > div{
+		margin-top:-300px;
+	}
+
+	.header2{
+		top:0px;
+		z-index:9999px;
+	}
+
+	.gizle{
+		top:-200px;
 	}
 }
 
@@ -61,7 +99,8 @@
 		position:fixed;
 		width: 100%;
 		transition:top .5s;
-	}
+		}
+
 
 	.page-header > .inner {
 		margin: auto;
@@ -76,10 +115,29 @@
 
 	.page-main > div {
 		padding: 37.5px 0 37.5px;
+		margin-top:-150px;
 		background-color:#191970;
 		opacity:0.8;
 		height:135px;
 	}
+	.mobilenav{
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.mobilenav > div{
+		margin-top:-300px;
+	}
+	
+	.header2{
+		top:150px;
+		z-index:9999px;
+	}
+
+	.gizle{
+		top:-200px;
+	}	
 }
 
 
@@ -92,14 +150,14 @@
 	}
 
 	.page-header > .inner {
-		margin: auto;
+		margin:auto;	
 		width: 448px;
 	}
 
 	.page-main {
 		position:fixed;
 		width: 100%;
-		transition:top .5s
+		transition:top .5s;
 	}
 
 	.page-main > div {
@@ -107,17 +165,81 @@
 		background-color:#191970;
 		opacity:0.8;
 		height:84px;
+		margin-top:-300px;
 	}
+
+
+	.mobilenav{
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.mobilenav>div{
+		padding:10px 0 10px;
+		background-color:#191970;
+		opacity:0.8;
+		height:20px;
+	}
+
+	.header2{
+		top:0px;
+		z-index:9999px;
+	}
+
+	.gizle{
+		top:-200px;
+	}	
 }
 
 
 
+@media screen and (max-width: 559px){
+	.page-header {
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
 
-.header2{
-top:0;
-z-index:9999px;
-}
+	.page-header > .inner {
+		margin:auto;	
+		width: 448px;
+	}
 
-.gizle{
-top:-200px;
+	.page-main {
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.page-main > div {
+		padding: 23.3333px 0 23.3333px;
+		background-color:#191970;
+		opacity:0.8;
+		height:84px;
+		margin-top:-300px;
+	}
+
+
+	.mobilenav{
+		position:fixed;
+		width: 100%;
+		transition:top .5s;
+	}
+
+	.mobilenav>div{
+		padding:10px 0 10px;
+		background-color:#191970;
+		opacity:0.8;
+		height:20px;
+	}
+
+	.header2{
+		top:0px;
+		z-index:9999px;
+	}
+
+	.gizle{
+		top:-200px;
+	}	
 }

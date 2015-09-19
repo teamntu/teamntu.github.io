@@ -4,7 +4,8 @@
 <title>biomod</title>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="jquery.panelslider.min.js"></script>
+
 <script src="./js/vendor/modernizr.custom.min.js"></script>
 <script src="./js/vendor/jquery-1.10.2.min.js"></script>
 <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
@@ -12,14 +13,15 @@
 <script src="./js/slideshow.js"></script>
 <script src="./js/scrolling.js"></script>
 <script src="./js/stickyheader.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-<link rel="stylesheet" href="./css/normalize.css">
 <link rel="stylesheet" href="./css/button.css">
 <link rel="stylesheet" href="./css/stickyheader.css">
 <link rel="stylesheet" href="./css/slideshow.css">
 <link rel="stylesheet" href="./css/listcss.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/normalize.css">
 
 
 
@@ -38,22 +40,77 @@ html{
 
 body{
 	background-image: url('img/navbar.jpg');
+	
+	/* Panel animation should last 200ms */
+      transition: transform .2s;
+      -webkit-transition: -webkit-transform .2s;
 }
 
-.test 
-{
-    cursor:url("img/h1.jpg"), auto;
-}
 
-</style>
+
+    /* Body animation when right panel is opened */
+    body.ps-active-right {
+      -webkit-transform: translateX(-260px);
+      -ms-transform: translateX(-260px);
+      transform: translateX(-260px);
+    }
+
+    /* Panel styles */
+    .panel {
+      position: fixed;
+      top: 0;
+      width: 220px;
+      height: 100%;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+      box-shadow: inset 0 0 5px 5px #222;
+    }
+
+    #left-panel {
+      left: 0;
+
+      /* Hide panel on the left of the page. When this panel is opened the
+      class .ps-active will be apllied to body, and it's X translation will
+      reveal the panel. */
+      -webkit-transform: translateX(-260px);
+      -ms-transform: translateX(-260px);
+      transform: translateX(-260px);
+    }
+
+    #right-panel {
+      right: 0;
+
+      /* Hide panel on the right of the page. When this panel is opened the
+      class .ps-active-right will be apllied to body, and it's X translation
+      will reveal the panel. */
+      -webkit-transform: translateX(260px);
+      -ms-transform: translateX(260px);
+      transform: translateX(260px);
+    }
+
+    /* Page style */
+  
+    #page {
+      width: 940px;
+      height: 400px;
+      padding: 20px;
+      margin: 0 auto;
+      background: white;
+    }
+
+  </style>
 </head>
+
+
+
 
 <body class="test">
 <header class="test">
 <div id="p1"></div>
 <nav class="primary-nav" role="navigation">
 <div class="page-main" role="main">
-	<div id="navbar">
+	<div>
 		<div id="buttons2">
 			<div class="inner clearfix">
 				<button onclick="location.href='home.html'">
@@ -395,6 +452,50 @@ New Hampshire. We blog about web design, web development, technology, bootstrapp
 Learn more about our company.
 A Beautiful Site, 
 
+
+
+  <!-- Centered page -->
+  <div id="page">
+    <h1>Panel slider example</h1>
+    <a id="left-panel-link" href="#left-panel">Open left panel</a> |
+    <a id="right-panel-link" href="#right-panel">Open right panel</a>
+    <hr />
+    <p>Usage instructions and source code <a href="https://github.com/eduardomb/jquery-panelslider">here</a></p>
+  </div>
+
+  <!-- Left panel -->
+  <div id="left-panel" class="panel">
+    <h2>Left panel</h2>
+    <p>Click anywhere outside panel to close it.</p>
+  </div>
+
+  <!-- Right panel -->
+  <div id="right-panel" class="panel">
+    <h2>Right panel</h2>
+    <p>Clicking outside this panel wont close it because <code>clickClose = false</code></p>
+    <button id="close-panel-bt">Close</button>
+  </div>
+
+ <script>
+    $('#left-panel-link').panelslider();
+
+    $('#right-panel-link').panelslider({
+      bodyClass: 'ps-active-right',
+      clickClose: false,
+      onOpen: function() {
+        console.log('right panel open');
+      }
+    });
+
+    $('#close-panel-bt').click(function() {
+      $.panelslider.close();
+    });
+
+    $('#left-panel, #right-panel').on('psBeforeOpen psOpen psBeforeClose psClose', function(e) {
+      console.log(e.type, e.target.getAttribute('id'));
+    });
+  </script>
+ 
 <div class="img-responsive" >
 <!--<img class="img-responsive" src="img/navbar.jpg">-->
 </div>
@@ -420,4 +521,7 @@ A Beautiful Site,
 
 
 
-</html>
+</html> <!-- Load Panelslider -->
+  
+ 
+
