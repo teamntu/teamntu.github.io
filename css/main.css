@@ -20,25 +20,12 @@
 	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
-body {
-	font:400 13px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	background:#333;
-}
-
-/*------------------------------------*\
-    STRUCTURE
-\*------------------------------------*/
 
 .wrapper {
 	max-width:1280px;
 	margin:0 auto;
 }
-.header {
-	padding:15px 25px;
-	background:#FFF;
-	border-left:5px solid #2BA6CB;
-	overflow:hidden;
-}
+
 .logo {
 	float:left;
 }

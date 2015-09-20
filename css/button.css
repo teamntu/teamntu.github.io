@@ -39,8 +39,8 @@ button {
 	#buttons2 button {
 		display: block;
 		position: absolute;
-		width: 100px;
-		height:100px ;
+		width: 105px;
+		height:105px ;
 		overflow: hidden;
 		padding: 0 0 3.41796%;
 		font-size: 10px;
@@ -48,7 +48,7 @@ button {
 		color: #01b169;
 		background-color:#191970;
 		border: none;
-		border-radius: 75px;
+		border-radius:30px; 
 		top:-30px;
 		opacity:1;
 	}
@@ -117,7 +117,7 @@ button {
 		color: #01b169;
 		background-color:#191970;
 		border: none;
-		border-radius: 62px;
+		border-radius: 24.8px;
 		top:-24.8px;
 	}
 
@@ -180,7 +180,7 @@ button {
 		color: #01b169;	
 		background-color:#191970;
 		border: none;
-		border-radius: 56.25px;
+		border-radius: 22.5px;
 		top:-22.5px;
 	}
 
@@ -245,8 +245,8 @@ button {
 		color: #01b169;
 		background-color:#191970;
 		border: none;
-		border-radius: 35px;
-		top:-5px;
+		border-radius: 14.93px;
+		top:-1000px;
 	}
 
 	#buttons2 button:nth-child(1) {left: 55.266667px;}
@@ -287,6 +287,68 @@ button {
     height: 120px;
     line-height: 120px;
     letter-spacing: 0.15em;
+}
+
+
+
+@media screen and (max-width:559px){
+
+	#buttonpic2 {
+		width:70px;
+		height:70px;
+		border:0px;
+	}
+
+	#buttonpic{
+		width:42.66667px;
+		height:42.66667px;
+		border:0px;
+	}
+	
+	#buttons2 .inner {
+		position: relative;
+		width:455.466992px;
+		margin: 0 auto;
+	}
+
+	#buttons2 button {
+		display: block;
+		position: absolute;
+		width: 42.666667px;
+		height:42.666667px ;
+		overflow: hidden;
+		padding: 0 0 3.41796%;
+		font-size: 10px;
+		letter-spacing: 1px;
+		color: #01b169;
+		background-color:#191970;
+		border: none;
+		border-radius: 35px;
+		top:-1000px;
+	}
+
+	#buttons2 button:nth-child(1) {left: 55.266667px;}
+	#buttons2 button:nth-child(2) {left: 112.64008px;}
+	#buttons2 button:nth-child(3) {left: 169.813466px;}
+	#buttons2 button:nth-child(4) {left: 222.720174px;}
+	#buttons2 button:nth-child(5) {left: 279.893552px;}
+	#buttons2 button:nth-child(6) {
+		left: -46.6667px;
+		display: block;
+		position: absolute;
+		width: 70px;
+		height: 70px;
+		overflow: hidden;
+		font-size: 7.466672px;
+		letter-spacing: 0.46667px;
+		color: black;
+		background-color:#191970;
+		border: none;
+		border-radius:0px;
+		top:-10px;
+	}
+	#buttons2 button:nth-child(7) {left: 337.06639px;}
+	#buttons2 button:nth-child(8) {left: 394.240308px;}
 }
 
 .page-footer a {
