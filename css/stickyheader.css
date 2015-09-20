@@ -233,7 +233,7 @@
 
 
 	.mobilenav{
-		position:fixed;
+		position:absolute;
 		width: 100%;
 		transition:top .5s;
 	}
