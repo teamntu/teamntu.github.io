@@ -63,21 +63,22 @@ ol {
 	display:block;
 }
 /* Navigation submenu */
-/*.nav-submenu {
+.nav-submenu {
 	display:none;
 	position:absolute;
 	left:0;
 	width:180px;
 }
 .nav-submenu-item a {
-	background:#8B2770;
-	border-bottom:1px solid #9A337E;
+	background:#191970;
+	border-bottom:2px solid black;
 	display:block;
 	padding:15px;
 }
 .nav-submenu-item a:hover {
-	background:#932C77;
-}*/
+	background:black;
+	color:yellow;
+}
 
 
 /* Mobile navigation */
@@ -98,7 +99,7 @@ ol {
 	top:0;
 	right:0;
 	display:none;
-	border-left:1px solid yellow;
+	border-left:1px solid white;
 	height:49px;
 	width:50px;
 	cursor:pointer;
@@ -112,8 +113,8 @@ ol {
 	background-size:20px;
 }
 .nav-click:hover {
-	background-color:yellow;
-	font-color:yellow;
+	background-color:black;
+	color:yellow;
 }
 .nav-rotate {
 	-webkit-transform:rotate(180deg);

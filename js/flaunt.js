@@ -29,7 +29,7 @@
 		$('.nav-list').on('click', '.nav-click', function(){
 		
 			// Toggle the nested nav
-			$(this).siblings('.nav-submenu').toggle();
+			$(this).siblings('.nav-submenu').slideToggle();
 			
 			// Toggle the arrow using CSS3 transforms
 			$(this).children('.nav-arrow').toggleClass('nav-rotate');
