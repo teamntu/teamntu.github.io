@@ -22,7 +22,7 @@
 		
 		// Click to reveal the nav
 		$('.nav-mobile').click(function(){
-			$('.nav-list').slideToggle(200)
+			$('.nav-list').slideToggle(500)
 		});
 	
 		// Dynamic binding to on 'click'
