@@ -4,7 +4,6 @@
 <title>biomod</title>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="./js/vendor/modernizr.custom.min.js"></script>
 <script src="./js/vendor/jquery-1.10.2.min.js"></script>
 <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
@@ -12,15 +11,17 @@
 <script src="./js/slideshow.js"></script>
 <script src="./js/scrolling.js"></script>
 <script src="./js/stickyheader.js"></script>
+<script src="./js/flaunt.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-<link rel="stylesheet" href="./css/normalize.css">
 <link rel="stylesheet" href="./css/button.css">
 <link rel="stylesheet" href="./css/stickyheader.css">
 <link rel="stylesheet" href="./css/slideshow.css">
 <link rel="stylesheet" href="./css/listcss.css">
+<link rel="stylesheet "href="./css/mobilenav.css">
+<!--<link rel="stylesheet" href="./css/normalize.css">-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
 
 
 
@@ -38,22 +39,24 @@ html{
 
 body{
 	background-image: url('img/navbar.jpg');
+	
 }
 
-.test 
-{
-    cursor:url("img/h1.jpg"), auto;
-}
 
-</style>
+  </style>
 </head>
+
+
+
 
 <body class="test">
 <header class="test">
 <div id="p1"></div>
-<nav class="primary-nav" role="navigation">
-<div class="page-main" role="main">
-	<div id="navbar">
+
+
+<!--navbar for computer-->
+<nav>
+	<div class="page-main">
 		<div id="buttons2">
 			<div class="inner clearfix">
 				<button onclick="location.href='home.html'">
@@ -68,7 +71,6 @@ body{
 					<span>
 						<img src="img/Project.png" class="img-responsive" id="buttonpic">
 						<img src="img/Project2.png" class="img-responsive" id="buttonpic"><br>
-						project
 					</span>
 				</button>
 				
@@ -76,7 +78,6 @@ body{
 					<span>
 						<img src="img/Material&Method.png" class="img-responsive" id="buttonpic">
 						<img src="img/MM.png" class="img-responsive" id="buttonpic" ><br>
-						material <br>and<br>method					
 					</span>
 				</button>
 					
@@ -84,15 +85,13 @@ body{
 					<span>
 						<img src="img/Conclusion&Discussion.png" class="img-responsive" id="buttonpic">
 						<img src="img/CD.png" class="img-responsive" id="buttonpic"><br>
-						conclusion<br>and<br>discussion
 					</span>
 				</button>
 				
-				<button onclick="location.href='team.html'">
+				<button onclick="location.href='acknowledgement.html'">
 					<span>
 						<img src="img/Acknowledgement.png" class="img-responsive" id="buttonpic">
 						<img src="img/A.png" class="img-responsive" id="buttonpic"><br>
-						team
 					</span>
 				</button>
 				
@@ -103,11 +102,10 @@ body{
 					</span>
 				</button>
 				
-				<button onclick="location.href='acknowledgement.html'">
+				<button onclick="location.href='team.html'">
 					<span>
 						<img src="img/Team.png" class="img-responsive" id="buttonpic">
 						<img src="img/Team2.png" class="img-responsive" id="buttonpic"><br>
-						acknowledge
 					</span>
 				</button>
 
@@ -115,14 +113,153 @@ body{
 					<span>
 						<img src="img/Result.png" class="img-responsive" id="buttonpic">
 						<img src="img/Result2.png" class="img-responsive" id="buttonpic"><br>
-						acknowledge
 					</span>
 				</button>
 			</div>
 		</div>
 	</div>
-</div>
 </nav>
+</header>
+
+<header>
+	<div class="mobilenav">
+		<div class="wrapper">
+			<div>		
+				<!-- Nav -->
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-item">
+							<a href="?=home">Home</a>
+								<ul class="nav-submenu">
+									<li class="nav-submenu-item">
+										<a href="#">chapter1</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter2</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter3</a>
+									</li>
+								</ul>
+									
+						</li>
+						<li class="nav-item">
+							<a href="?=about">Project</a>
+								<ul class="nav-submenu">
+									<li class="nav-submenu-item">
+										<a href="#">chapter1</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter2</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter3</a>
+									</li>
+								</ul>
+						</li>
+						<li class="nav-item">
+							<a href="?=services">Material & Method</a>
+								<ul class="nav-submenu">
+									<li class="nav-submenu-item">
+										<a href="#">chapter1</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter2</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter3</a>
+									</li>
+								</ul>
+						</li>
+						<li class="nav-item">
+							<a href="?=portfolio">Discussion & Conclusion</a>
+								<ul class="nav-submenu">
+									<li class="nav-submenu-item">
+										<a href="#">chapter1</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter2</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter3</a>
+									</li>
+								</ul>
+						</li>
+						<li class="nav-item">
+							<a href="?=testimonials">Result</a>
+								<ul class="nav-submenu">
+									<li class="nav-submenu-item">
+										<a href="#">chapter1</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter2</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter3</a>
+									</li>
+								</ul>
+						</li>
+						<li class="nav-item">
+							<a href="?=contact">Acknowledgement</a>
+								<ul class="nav-submenu">
+									<li class="nav-submenu-item">
+										<a href="#">chapter1</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter2</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter3</a>
+									</li>
+								</ul>
+						</li>
+						<li class="nav-item">
+							<a href="?=contact">Team</a>
+								<ul class="nav-submenu">
+									<li class="nav-submenu-item">
+										<a href="#">chapter1</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter2</a>
+									</li>
+									<li class="nav-submenu-item">
+										<a href="#">chapter3</a>
+									</li>
+								</ul>
+						</li>
+					</ul>
+					</div>
+		
+				</nav>
+				<!-- /Nav -->
+			</div>
+		</div>
+</header>
+
+<header>
+
+<!--<nav>
+	<div class="mobilenav">
+		<div class="dropdown">
+		    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+			    <span></span></button>
+				    <ul class="dropdown-menu" style="width=200px;">
+					      <li class="dropdown-header">Dropdown header 1</li>
+						  <li><a href="#">HTML                                                       </a></li>
+						  <li><a href="#">CSS                                                        </a></li>
+						  <li><a href="#">JavaScript</a></li>
+						  <li class="divider"></li>
+						 	 <li class="dropdown-header">Dropdown header 2</li>
+								 <li><a href="#">About Us</a></li>
+			        </ul>
+		</div>
+	</div>
+</nav>-->
+
+
+	<body>
+	</body>
+
 </header>
 
 <!--navigation2-->
@@ -142,12 +279,13 @@ body{
 
 
 
-<div  id="right">
-      
 
+
+
+<div  id="right">
 <div>
 <div id="p2"></div>
-
+<button>aaaaaa</button>
 chapter1
 smoothly scroll to an <div id="p2"></div>element without a jQuery plugin
 You know that special effect where you click on a link 
@@ -395,6 +533,8 @@ New Hampshire. We blog about web design, web development, technology, bootstrapp
 Learn more about our company.
 A Beautiful Site, 
 
+
+
 <div class="img-responsive" >
 <!--<img class="img-responsive" src="img/navbar.jpg">-->
 </div>
@@ -409,9 +549,12 @@ A Beautiful Site,
 <!--<div >
 <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/KVSOrdJ6jUQ" frameborder="0" style="margin-left: 150px;> </iframe>
 </div>-->
-
-
-
+<script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+</script>
 	
 </div>
 
@@ -420,4 +563,7 @@ A Beautiful Site,
 
 
 
-</html>
+</html> 
+  
+ 
+
