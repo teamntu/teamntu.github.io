@@ -48,33 +48,18 @@ function calcSpeed(prev, next) {
     return speed;
 }
 
-function imageCount(i, id, affImg) {
+function imageCount(id, src) {
     return function() {
-        $( id[ i ] + ' a img').attr('src', affImg[ i ]);
-        return false;
+        $( id + ' a img').attr('src', src);
     };
 }
 
-function imageCount(i, id, preImg) {
-    return function() {
-        $( id[ i ] + ' a img').attr('src', preImg[ i ]);
-        return false;
-    };
-}
-    
 $(function() {
     var id = ['#home','#project', '#result', '#material', '#conclusion', '#team', '#acknowledgement'];
-    var affImg = ['/images/home_2.png','/images/project_2.png','/images/result_2.png', '/images/material_2.png', '/images/conclusion_2.png', '/images/team_2.png', '/images/acknowledgement_2.png'];
-    for(var i = 0; i < 7; i++ ) {
-        $( id[ i ] ).hover(imageCount(i, id, affImg));
-    }
-});
-
-    
-$(function() {
-    var id = ['#home','#project', '#result', '#material', '#conclusion', '#team', '#acknowledgement'];
+    var aftImg = ['/images/home_2.png','/images/project_2.png','/images/result_2.png', '/images/material_2.png', '/images/conclusion_2.png', '/images/team_2.png', '/images/acknowledgement_2.png'];
     var preImg = ['/images/home.png','/images/project.png','/images/result.png', '/images/material.png', '/images/conclusion.png', '/images/team.png', '/images/acknowledgement.png'];
     for(var i = 0; i < 7; i++ ) {
-        $( id[ i ] ).mouseleave(imageCount(i, id, preImg));
+        $( id[ i ] ).hover(imageCount(id[i], aftImg[i]), imageCount(id[i], preImg[i]));
     }
 });
+
