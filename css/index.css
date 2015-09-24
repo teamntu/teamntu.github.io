@@ -1,0 +1,407 @@
+/* line 5, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-1 {
+  -webkit-flex: 1 1 0;
+  flex: 1 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-2 {
+  -webkit-flex: 2 1 0;
+  flex: 2 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-3 {
+  -webkit-flex: 3 1 0;
+  flex: 3 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-4 {
+  -webkit-flex: 4 1 0;
+  flex: 4 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-5 {
+  -webkit-flex: 5 1 0;
+  flex: 5 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-6 {
+  -webkit-flex: 6 1 0;
+  flex: 6 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-7 {
+  -webkit-flex: 7 1 0;
+  flex: 7 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-8 {
+  -webkit-flex: 8 1 0;
+  flex: 8 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-9 {
+  -webkit-flex: 9 1 0;
+  flex: 9 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-10 {
+  -webkit-flex: 10 1 0;
+  flex: 10 1 0;
+}
+
+/* line 9, ../sass/_flex.scss */
+.item-0-11 {
+  -webkit-flex: 11 1 0;
+  flex: 11 1 0;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-1 {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-2 {
+  -webkit-flex: 2 1 auto;
+  flex: 2 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-3 {
+  -webkit-flex: 3 1 auto;
+  flex: 3 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-4 {
+  -webkit-flex: 4 1 auto;
+  flex: 4 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-5 {
+  -webkit-flex: 5 1 auto;
+  flex: 5 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-6 {
+  -webkit-flex: 6 1 auto;
+  flex: 6 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-7 {
+  -webkit-flex: 7 1 auto;
+  flex: 7 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-8 {
+  -webkit-flex: 8 1 auto;
+  flex: 8 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-9 {
+  -webkit-flex: 9 1 auto;
+  flex: 9 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-10 {
+  -webkit-flex: 10 1 auto;
+  flex: 10 1 auto;
+}
+
+/* line 13, ../sass/_flex.scss */
+.item-auto-11 {
+  -webkit-flex: 11 1 auto;
+  flex: 11 1 auto;
+}
+
+/* line 16, ../sass/_flex.scss */
+.nowrap-center {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'AR DARLING';
+  src: url("/fonts/ar_darling.ttf");
+}
+/* line 15, ../sass/index.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 19, ../sass/index.scss */
+body {
+  font-size: 15px;
+  font-family: AR DARLING;
+  color: #ffffff;
+  background-image: url("/images/main_background.jpg");
+  text-align: center;
+  vertical-align: middle;
+  cursor: url("/images/needle.png") 3 3, auto;
+}
+
+/* line 30, ../sass/index.scss */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 35, ../sass/index.scss */
+.title-container {
+  padding: 25px 70px 20px;
+  font-size: 100px;
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 41, ../sass/index.scss */
+.space {
+  padding: 10px;
+}
+
+/* line 45, ../sass/index.scss */
+.main-nav-bar {
+  height: -webkit-calc(100% - 369px);
+  height: calc(100% - 369px);
+  position: relative;
+}
+
+/* line 50, ../sass/index.scss */
+.nav-button {
+  height: 110px;
+  width: 110px;
+  position: absolute;
+}
+
+/* line 56, ../sass/index.scss */
+#team-photo-container {
+  height: 269px;
+}
+
+/* line 60, ../sass/index.scss */
+#team-photo {
+  margin: 30px;
+  height: 189px;
+}
+
+/* line 65, ../sass/index.scss */
+#team-name {
+  color: #f3dc8e;
+  position: relative;
+}
+
+/* line 70, ../sass/index.scss */
+#project-name {
+  color: #fea666;
+  position: relative;
+}
+
+/* line 75, ../sass/index.scss */
+#team-name-hide {
+  width: 215px;
+  height: 105px;
+  background-color: red;
+  position: absolute;
+  left: 205px;
+}
+
+/* line 83, ../sass/index.scss */
+#project-name-hide {
+  width: 510px;
+  height: 105px;
+  background-color: black;
+  position: absolute;
+  left: 55px;
+}
+
+/**
+#home {
+    top: 0px;
+    left: 0px;
+}
+
+#project {
+    top: 20px;
+    left: 150px;
+}
+
+#result {
+    top: 100px;
+    left: 730px;
+}
+
+#material {
+    top: 90px;
+    left: 290px;
+}
+
+#conclusion {
+    top: 60px;
+    left: 430px;
+}
+
+#team {
+    top: 10px;
+    left: 580px;
+}
+
+#acknowledgement {
+    top: 100px;
+    left: 730px;
+}
+**/
+/* line 130, ../sass/index.scss */
+#main-nav-bar a img:hover {
+  src: "/images/team.png";
+}
+
+@media screen and (min-width: 700px) {
+  /* line 138, ../sass/index.scss */
+  .mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* line 144, ../sass/index.scss */
+  .container {
+    padding: 10px 30px;
+  }
+
+  /* line 147, ../sass/index.scss */
+  .title-container {
+    padding: 50px 5px 10px;
+  }
+
+  /* line 151, ../sass/index.scss */
+  .main-nav-bar {
+    display: none;
+  }
+
+  /* line 155, ../sass/index.scss */
+  .nav-bar-container {
+    padding: 10px 10px 10px;
+    background-color: #292929;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  /* line 161, ../sass/index.scss */
+  .nav-bar-button {
+    font-size: 20px;
+    background-color: #666666;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px 5px;
+  }
+  /* line 166, ../sass/index.scss */
+  .nav-bar-button div {
+    padding: 5px;
+  }
+
+  /* line 171, ../sass/index.scss */
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* line 176, ../sass/index.scss */
+  #team-photo-container {
+    display: none;
+  }
+
+  /* line 180, ../sass/index.scss */
+  #title-text {
+    font-size: 50px;
+  }
+}
