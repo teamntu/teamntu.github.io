@@ -99,7 +99,7 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width:991px){
+@media screen and (min-width: 770px) and (max-width:991px){
 	.page-header {
 		position:fixed;
 		width: 100%;
@@ -147,7 +147,7 @@
 
 
 
-@media screen and (min-width: 560px) and (max-width:767px){
+@media screen and (min-width: 560px) and (max-width:769px){
 	.page-header {
 		position:fixed;
 		width: 100%;

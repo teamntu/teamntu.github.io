@@ -160,7 +160,7 @@ body{background-color:#8B0000; color:#2f2a3e;}
 
 
 
-@media screen and (min-width:768px) and (max-width:991px){
+@media screen and (min-width:770px) and (max-width:991px){
 
 	pre{background-color:#F5F5DC; position:left; left:22.5px;}
 	
@@ -236,7 +236,7 @@ body{background-color:#8B0000; color:#2f2a3e;}
 
 
 
-@media screen and (min-width:560px)and (max-width:767px){
+@media screen and (min-width:560px)and (max-width:769px){
 
 	pre{background-color:#F5F5DC; position:left; left:14px;}
 	

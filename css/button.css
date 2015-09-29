@@ -147,7 +147,7 @@ button {
 
 
 
-@media screen and (min-width:768px) and (max-width:991px){
+@media screen and (min-width:770px) and (max-width:991px){
 
 	#buttonpic2 {
 		width:112.5px;
@@ -213,7 +213,7 @@ button {
 
 
 
-@media screen and (min-width:560px) and (max-width:767px){
+@media screen and (min-width:560px) and (max-width:769px){
 
 	#buttonpic2 {
 		width:70px;
