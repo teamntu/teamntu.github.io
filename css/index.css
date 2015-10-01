@@ -405,3 +405,7 @@ img {
     font-size: 50px;
   }
 }
+/* line 185, ../sass/index.scss */
+#preload {
+  display: none;
+}
