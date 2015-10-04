@@ -3,8 +3,8 @@ $(document).ready(function(){
 });
 
 function makeNewPosition( i ){
-    var h = ( $( window ).height() - 424 );
-    var w = ( $( window ).width() -770 ) / 7;
+    var h = ( $( window ).height() - 450 );
+    var w = ( $( window ).width() - 750 ) / 6;
 
     var nh = Math.floor(Math.random() * h);
     var nw = Math.floor( (Math.random() + i ) * w + i * 110 ) ;
@@ -17,17 +17,17 @@ function makeNewPosition( i ){
     
     
 function animateDiv(){
-    var width_left = ( $( window ).width() - 770 );
-    var id = ['#home', '#project', '#result', '#material', '#conclusion', '#team', '#acknowledgement'];
-    var newp = new Array(7);
-    var oldp = new Array(7);
-    for( var i = 0; i < 7; i++ ) {
+    var width_left = ( $( window ).width() - 660 );
+    var id = ['#home', '#project', '#result', '#material', '#conclusion', '#team'];
+    var newp = new Array(6);
+    var oldp = new Array(6);
+    for( var i = 0; i < 6; i++ ) {
         newp[ i ] = makeNewPosition( i );
     }
-    for( var i = 0; i < 7; i++ ) {
+    for( var i = 0; i < 6; i++ ) {
         oldp[ i ] = $( id[i] ).offset();
     }
-    for( var i = 0; i < 7; i++ ) {
+    for( var i = 0; i < 6; i++ ) {
         var speed = calcSpeed([oldp[ i ].top, oldp[ i ].left], newp[ i ]);
         $( id[i] ).animate({ top: newp[i][0], left: newp[i][1]}, speed, function(){
             animateDiv();
@@ -48,18 +48,33 @@ function calcSpeed(prev, next) {
     return speed;
 }
 
-function imageCount(id, src) {
+function imageCount(i, id, affImg) {
     return function() {
-        $( id + ' a img').attr('src', src);
+        $( id[ i ] + ' a img').attr('src', affImg[ i ]);
+        return false;
     };
 }
 
+function imageCount(i, id, preImg) {
+    return function() {
+        $( id[ i ] + ' a img').attr('src', preImg[ i ]);
+        return false;
+    };
+}
+    
 $(function() {
-    var id = ['#home','#project', '#result', '#material', '#conclusion', '#team', '#acknowledgement'];
-    var aftImg = ['/images/home_2.png','/images/project_2.png','/images/result_2.png', '/images/material_2.png', '/images/conclusion_2.png', '/images/team_2.png', '/images/acknowledgement_2.png'];
-    var preImg = ['/images/home.png','/images/project.png','/images/result.png', '/images/material.png', '/images/conclusion.png', '/images/team.png', '/images/acknowledgement.png'];
-    for(var i = 0; i < 7; i++ ) {
-        $( id[ i ] ).hover(imageCount(id[i], aftImg[i]), imageCount(id[i], preImg[i]));
+    var id = ['#home','#project', '#result', '#material', '#conclusion', '#team'];
+    var affImg = ['/images/home_2.png','/images/project_2.png','/images/result_2.png', '/images/material_2.png', '/images/conclusion_2.png', '/images/team_2.png'];
+    for(var i = 0; i < 6; i++ ) {
+        $( id[ i ] ).hover(imageCount(i, id, affImg));
     }
 });
 
+    
+$(function() {
+    var id = ['#home','#project', '#result', '#material', '#conclusion', '#team'];
+    var preImg = ['/images/home.png','/images/project.png','/images/result.png', '/images/material.png', '/images/conclusion.png', '/images/team.png'];
+    for(var i = 0; i < 6; i++ ) {
+        $( id[ i ] ).mouseleave(imageCount(i, id, preImg));
+    }
+});

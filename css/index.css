@@ -257,8 +257,8 @@ img {
 
 /* line 50, ../sass/index.scss */
 .nav-button {
-  height: 110px;
-  width: 110px;
+  height: 125px;
+  width: 125px;
   position: absolute;
 }
 
@@ -303,70 +303,40 @@ img {
   left: 55px;
 }
 
-/**
-#home {
-    top: 0px;
-    left: 0px;
+/* line 91, ../sass/index.scss */
+#home, #project, #result, #material, #conclusion, #team, #acknowledgement {
+  top: 0px;
+  left: 500px;
 }
 
-#project {
-    top: 20px;
-    left: 150px;
-}
-
-#result {
-    top: 100px;
-    left: 730px;
-}
-
-#material {
-    top: 90px;
-    left: 290px;
-}
-
-#conclusion {
-    top: 60px;
-    left: 430px;
-}
-
-#team {
-    top: 10px;
-    left: 580px;
-}
-
-#acknowledgement {
-    top: 100px;
-    left: 730px;
-}
-**/
-/* line 130, ../sass/index.scss */
+/* line 99, ../sass/index.scss */
 #main-nav-bar a img:hover {
   src: "/images/team.png";
 }
 
 @media screen and (min-width: 700px) {
-  /* line 138, ../sass/index.scss */
+  /* line 107, ../sass/index.scss */
   .mobile {
     display: none;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 144, ../sass/index.scss */
+  /* line 113, ../sass/index.scss */
   .container {
     padding: 10px 30px;
   }
 
-  /* line 147, ../sass/index.scss */
+  /* line 116, ../sass/index.scss */
   .title-container {
     padding: 50px 5px 10px;
   }
 
-  /* line 151, ../sass/index.scss */
+  /* line 120, ../sass/index.scss */
   .main-nav-bar {
     display: none;
   }
 
-  /* line 155, ../sass/index.scss */
+  /* line 124, ../sass/index.scss */
   .nav-bar-container {
     padding: 10px 10px 10px;
     background-color: #292929;
@@ -375,7 +345,7 @@ img {
     border-radius: 5px;
   }
 
-  /* line 161, ../sass/index.scss */
+  /* line 130, ../sass/index.scss */
   .nav-bar-button {
     font-size: 20px;
     background-color: #666666;
@@ -384,28 +354,28 @@ img {
     border-radius: 5px;
     margin: 10px 5px;
   }
-  /* line 166, ../sass/index.scss */
+  /* line 135, ../sass/index.scss */
   .nav-bar-button div {
     padding: 5px;
   }
 
-  /* line 171, ../sass/index.scss */
+  /* line 140, ../sass/index.scss */
   a {
     color: #fff;
     text-decoration: none;
   }
 
-  /* line 176, ../sass/index.scss */
+  /* line 145, ../sass/index.scss */
   #team-photo-container {
     display: none;
   }
 
-  /* line 180, ../sass/index.scss */
+  /* line 149, ../sass/index.scss */
   #title-text {
     font-size: 50px;
   }
 }
-/* line 185, ../sass/index.scss */
+/* line 154, ../sass/index.scss */
 #preload {
   display: none;
 }
