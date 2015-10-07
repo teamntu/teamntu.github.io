@@ -1,553 +1,112 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>biomod</title>
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="./js/vendor/modernizr.custom.min.js"></script>
-<script src="./js/vendor/jquery-1.10.2.min.js"></script>
-<script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
-<script src="./js/button.js"></script>
-<script src="./js/slideshow.js"></script>
-<script src="./js/scrolling.js"></script>
-<script src="./js/stickyheader.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-
-<link rel="stylesheet" href="./css/button.css">
-<link rel="stylesheet" href="./css/stickyheader.css">
-<link rel="stylesheet" href="./css/slideshow.css">
-<link rel="stylesheet" href="./css/listcss.css">
-<link rel="stylesheet" href="./css/normalize.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-
-
-
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-html{
-	background-image: url('img/navbar.jpg');
-}
-
-
-
-body{
-	background-image: url('img/navbar.jpg');
-	
-}
-
-
-  </style>
-</head>
-
-
-
-
-<body class="test">
-<header class="test">
-<div id="p1"></div>
-
-
-<!--navbar for computer-->
-<nav>
-	<div class="page-main">
-		<div id="buttons2">
-			<div class="inner clearfix">
-				<button onclick="location.href='home.html'">
-					<span>
-						<img src="img/Home.png" class="img-responsive" id="buttonpic" >
-						<img src="img/Home2.png" class="img-responsive" id="buttonpic"><br>
-						
-					</span>
-				</button>
-				
-				<button onclick="location.href='project.html'"> 
-					<span>
-						<img src="img/Project.png" class="img-responsive" id="buttonpic">
-						<img src="img/Project2.png" class="img-responsive" id="buttonpic"><br>
-						project
-					</span>
-				</button>
-				
-				<button onclick="location.href='material&method.html'">
-					<span>
-						<img src="img/Material&Method.png" class="img-responsive" id="buttonpic">
-						<img src="img/MM.png" class="img-responsive" id="buttonpic" ><br>
-						material <br>and<br>method					
-					</span>
-				</button>
-					
-					<button onclick="location.href='conclusion&discussion.html'">
-					<span>
-						<img src="img/Conclusion&Discussion.png" class="img-responsive" id="buttonpic">
-						<img src="img/CD.png" class="img-responsive" id="buttonpic"><br>
-						conclusion<br>and<br>discussion
-					</span>
-				</button>
-				
-				<button onclick="location.href='acknowledgement.html'">
-					<span>
-						<img src="img/Acknowledgement.png" class="img-responsive" id="buttonpic">
-						<img src="img/A.png" class="img-responsive" id="buttonpic"><br>
-						team
-					</span>
-				</button>
-				
-				<button>
-					<span>
-						<img src="img/logo.png" class="img-responsive" id="buttonpic2">
-						<img src="img/logo.png" class="img-responsive" id="buttonpic2"><br>
-					</span>
-				</button>
-				
-				<button onclick="location.href='team.html'">
-					<span>
-						<img src="img/Team.png" class="img-responsive" id="buttonpic">
-						<img src="img/Team2.png" class="img-responsive" id="buttonpic"><br>
-						acknowledge
-					</span>
-				</button>
-
-				<button onclick="location.href='result.html'">
-					<span>
-						<img src="img/Result.png" class="img-responsive" id="buttonpic">
-						<img src="img/Result2.png" class="img-responsive" id="buttonpic"><br>
-						acknowledge
-					</span>
-				</button>
-			</div>
-		</div>
-	</div>
-</nav>
-</header>
-
-
-
-<header>
-
-<nav>
-	<div class="mobilenav">
-		<div class="dropdown">
-		    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
-			    <span></span></button>
-				    <ul class="dropdown-menu" style="width=200px;">
-					      <li class="dropdown-header">Dropdown header 1</li>
-						  <li><a href="#">HTML                                                       </a></li>
-						  <li><a href="#">CSS                                                        </a></li>
-						  <li><a href="#">JavaScript</a></li>
-						  <li class="divider"></li>
-						 	 <li class="dropdown-header">Dropdown header 2</li>
-								 <li><a href="#">About Us</a></li>
-			        </ul>
-		</div>
-	</div>
-</nav>
-
-
-	<head>
-		<meta charset="utf-8">
-		<title>Flaunt JS, stylish responsive navigations with nested click to reveal by @toddmotto | toddmotto.com</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<meta name="author" content="@toddmotto">
-		<link href="css/main.css" rel="stylesheet">
-		<link href="css/demo.css" rel="stylesheet">
-	</head>
-	<body>
-		<div class="header">
-			<div class="logo">
-				<a href="http://toddmotto.com" target="_blank">
-					<img src="img/logo.png" alt="Logo" class="logo-img">
-				</a>
-			</div>
-			<ul class="demo-nav">
-				<li class="demo-nav-link">
-					<a href="http://toddmotto.com/flaunt-js-for-stylish-responsive-navigations-with-nested-click-to-reveal">Go to tutorial</a>
-				</li>
-			</ul>
-		</div>
-		<div class="wrapper">
-			<div class="main">
-				
-				<!-- Nav -->
-				<nav class="nav">
-					<ul class="nav-list">
-						<li class="nav-item">
-							<a href="?=home">Home</a>
-							<ul class="nav-submenu">
-								<li class="nav-submenu-item">
-									<a href="?=submenu-1">Submenu item 1</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="?=submenu-2">Submenu item 2</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="?=submenu-3">Submenu item 3</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="?=submenu-4">Submenu item 4</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a href="?=about">About</a>
-						</li>
-						<li class="nav-item">
-							<a href="?=services">Services</a>
-							<ul class="nav-submenu">
-								<li class="nav-submenu-item">
-									<a href="?=submenu-1">Submenu item 1</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="?=submenu-2">Submenu item 2</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="?=submenu-3">Submenu item 3</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="?=submenu-4">Submenu item 4</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a href="?=portfolio">Portfolio</a>
-						</li>
-						<li class="nav-item">
-							<a href="?=testimonials">Testimonials</a>
-						</li>
-						<li class="nav-item">
-							<a href="?=contact">Contact</a>
-						</li>
-					</ul>
-				</nav>
-				<!-- /Nav -->
-				
-				
-			</div>
-		</div>
-		
-		<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
-		<script src="js/flaunt.js"></script>
-	
-		<!-- Demo Analytics -->
-		<script>
-			var _gaq=[['_setAccount','UA-20440416-10'],['_trackPageview']];
-			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-			g.src='//www.google-analytics.com/ga.js';
-			s.parentNode.insertBefore(g,s)})(document,'script');
-		</script>
-		
-		<!-- Demo Ads -->
-		<script src="//toddmotto.com/ads/ads.js"></script>
-	</body>
-
-</header>
-
-<!--navigation2-->
-<div id="navigation2">
-    <div id="container">
-	    <ul id="firstul">
-		    <li class="active"><a href="#">home</a></li>
-            <li><a id="page1" href="#">chapter1</a></li>
-            <li><a id="page2" href="#">chapter2</a></li>
-		    <li><a id="page3" href="#">chapter3</a></li>
-		    <li><a id="page4" href="#">chapter4</a></li>
-		    <li><a id="page5" href="#">chapter5</a></li>
-			 
-		</ul>
-	</div>
-</div>
-
-
-
-
-
-
-<div  id="right">
-<div>
-<div id="p2"></div>
-<button>aaaaaa</button>
-chapter1
-smoothly scroll to an <div id="p2"></div>element without a jQuery plugin
-You know that special effect where you click on a link 
-and your browser smoothly<div id="p2"></div> scrolls down to the appropriate 
-section of the page? divtty slick, right? Here are a couple 
-snippets so you can do the same thing on your own website.
-Scroll to a specific element
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-</div>
-
-
-<div>
-chapter2
-Here’s how to programmatically scroll to any element on the page. 
-If you’re using jQuery, you don’t need a plugin. It’s very simple:
-$('html, body').animate({
-    scrollTop: $("#target-element").offset().top
-}, 800);
-This will scroll the page down<div id="p3"></div> to #target-element over a period 
-of one second (1,000 milliseconds = 1 second).
-Scroll to the selected anchor
-You can take things a bit further and animate scrolling for all anchors 
-on your page. The following snippet will watch for clicks on any link that
- points to an anchor and smoothly scroll down to it:
-$('a[href^="#"]').on('click', fu
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, nction(event) {
-    var target = $(this.href);
-    if( target.length ) {
-        event.divventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 800);
-    }
-});
-</div>
-
-
-<div>
-chapter3
-See it in actionJanuary 22, 2010 About the author
-Cory LaViska is a founder, web developer, and bootstrapper
-based in New Hampshire. His current focus is on Surreal CMS,
-an awesome SaaS content management service for web designers. 
-Need to get in touch? You can connect with him on Twitter. 
-Topics Development, Tips Tags javascript, jquery, scrolling
-Activity 0 comments
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-</div>
-
-<div id="p4">chapter4</div>
-<div>
-More Posts
-PHP logo
-Passing data from PHP to JavaScript
-March 4, 2015
-HTML5 logo
-The HTML5 download attribute
-February 19, 2015
-Get comfortable with abstraction
-Get comfortable with abstraction
-February 18, 2015
-Lion
-Thoughts on being a good manager
-February 9, 2015
-Megaphone by a wall
-I should have been asking my users this from the start
-January 20, 2015
-Programming comic
-Why developers hate being interrupted
-January 8, 2015
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-</div>
-
-<div id="p5">chapter5</div>
-<div>
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-123
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-
-
-
-<div class="img-responsive" >
-<!--<img class="img-responsive" src="img/navbar.jpg">-->
-</div>
-
-	<!--<div class="slideshow" >
-			<a href="#" class="slide" id="slide-1"><img class="img-ciricle" src="./img/slide-1.jpg" alt="" width="400%" height="200%"></a>
-			<a href="#" class="slide" id="slide-2"><img class="img-responsive" src="./img/slide-2.jpg" alt="" width="400" height="200"></a>
-			<a href="#" class="slide" id="slide-3"><img class="img-responsive" src="./img/slide-3.jpg" alt="" width="400" height="200"></a>
-			<a href="#" class="slide" id="slide-4"><img class="img-responsive" src="./img/slide-4.jpg" alt="" width="400" height="200"></a>
-	</div>-->
-	
-<!--<div >
-<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/KVSOrdJ6jUQ" frameborder="0" style="margin-left: 150px;> </iframe>
-</div>-->
-<script>
-$('#toggle').click(function() {
-   $(this).toggleClass('active');
-   $('#overlay').toggleClass('open');
-  });
-</script>
-	
-</div>
-
-
-</body>
-
-
-
-</html> 
-  
- 
-
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="/js/index.js"></script>
+        <title>NTU Biomod</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="biomod, 2015, National Taiwan University, NTU, Dna origami, Nanoneedle">
+        <meta name="description" content="A wiki webpage for National Taiwan University biomod team">
+        <meta name="apple-mobile-web-app-title" content="NTU Biomod">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="title" class="title-container nowrap-center">
+                <div id="team-photo-container" class="item-0-2 space">
+                    <div id="team-photo" class="nowrap-center">
+                        <img src="/images/team_photo.png" alt="team-photo"></img>
+                    </div>
+                </div>
+                <div id="title-text" class="item-0-5 space">
+                    <div id="team-name" class="space">
+                        <!--
+                        <div id="team-name-hide"></div>
+                        -->
+                        <span style="display:inline-block"><b>NTU</b></span>
+                    </div>
+                    <div id="project-name" class="space">
+                        <!--
+                        <div id="project-name-hide"></div>
+                        -->
+                        <span style="display:inline-block"><b>NanoNeedle</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-nav-bar">
+                <div id="home" class="nav-button">
+                    <a href="/home.html">
+                        <img src="/images/home.png" alt="home"></img>
+                    </a>
+                </div>
+                <div id="project" class="nav-button">
+                    <a href="/project.html">
+                        <img src="/images/project.png" alt="project"></img>
+                    </a>
+                </div>
+                <div id="result" class="nav-button">
+                    <a href="/result.html">
+                        <img src="/images/result.png" alt="result"></img>
+                    </a>
+                </div>
+                <div id="material" class="nav-button">
+                    <a href="/material&method.html">
+                        <img src="/images/material.png" alt="material"></img>
+                    </a>
+                </div>
+                <div id="conclusion" class="nav-button">
+                    <a href="/conclusion&discussion.html">
+                        <img src="/images/conclusion.png" alt="conclusion"></img>
+                    </a>
+                </div>
+                <div id="team" class="nav-button">
+                    <a href="/team.html">
+                        <img src="/images/team.png" alt="team"></img>
+                    </a>
+                </div>
+                <div id="acknowledgement" class="nav-button">
+                    <a href="/acknowledgement.html">
+                        <img src="/images/acknowledgement.png" alt="acknowledgement"></img>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="container">
+                    <div class="nav-bar-container">
+                        <div class="nav-bar-button">
+                            <a href="#"><div>home</div></a>
+                        </div>
+                        <div class="nav-bar-button">
+                            <a href="#"><div>project</div></a>
+                        </div>
+                        <div class="nav-bar-button">
+                            <a href="#"><div>result</div></a>
+                        </div>
+                        <div class="nav-bar-button">
+                            <a href="#"><div>material</div></a>
+                        </div>
+                        <div class="nav-bar-button">
+                            <a href="#"><div>conclusion</div></a>
+                        </div>
+                        <div class="nav-bar-button">
+                            <a href="#"><div>team</div></a>
+                        </div>
+                        <div class="nav-bar-button">
+                            <a href="#"><div>acknowledgement</div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="preload">
+            <img src="/images/result_2.png" alt="result"></img>
+            <img src="/images/home_2.png" alt="result"></img>
+            <img src="/images/project_2.png" alt="result"></img>
+            <img src="/images/material_2.png" alt="result"></img>
+            <img src="/images/conclusion_2.png" alt="result"></img>
+            <img src="/images/team_2.png" alt="result"></img>
+            <img src="/images/acknowledgement_2.png" alt="result"></img>
+        </div>
+    </body>
+</html>

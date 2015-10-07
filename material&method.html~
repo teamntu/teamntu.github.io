@@ -77,13 +77,6 @@ body{
 						<img src="img/MM.png" class="img-responsive" id="buttonpic" ><br>
 					</span>
 				</button>
-				
-				<button onclick="location.href='result.html'">
-					<span>
-						<img src="img/Result.png" class="img-responsive" id="buttonpic">
-						<img src="img/Result2.png" class="img-responsive" id="buttonpic"><br>
-					</span>
-				</button>
 					
 					<button onclick="location.href='conclusion&discussion.html'">
 					<span>
@@ -92,6 +85,12 @@ body{
 					</span>
 				</button>
 				
+				<button onclick="location.href='result.html'">
+					<span>
+						<img src="img/Result.png" class="img-responsive" id="buttonpic">
+						<img src="img/Result2.png" class="img-responsive" id="buttonpic"><br>
+					</span>
+				</button>
 				
 				<button onclick="location.href='index.html'">
 					<span>
