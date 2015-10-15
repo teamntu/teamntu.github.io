@@ -4,8 +4,6 @@
 }
 
 
-
-
 @media screen and (min-width: 1200px){
 
 	pre{background-color:#F5F5DC; position:left; left:30px;}
@@ -17,25 +15,26 @@
 	ul {padding-left:2em;list-style-type:square;}
 	
 	#right {	
-	margin-top:200px;
-	margin-right:30px;
-	margin-left:250px;
-    float:right;
-    padding:20px;
-	/*padding-left:30px;*/
-	padding-top:5px;
-	border-radius:30px;
-	background-color:#F5F5DC;
+		margin-top:200px;
+		margin-right:30px;
+		margin-left:250px;
+    	float:right;
+    	padding:20px;
+		padding-top:5px;
+		border-radius:30px;
+		background-color:#F5F5DC;
+		font-family:cursive;
+		font-size:150%;
 	}
 	
 	#foot{
-	color:white;
-	margin-top:60px;
-	width:100%;
-	height:auto;
-	float:right;
-	background-color:#191970;
-	opacity:0.8;
+		color:white;
+		margin-top:60px;
+		width:100%;
+		height:auto;
+		float:right;
+		background-color:#191970;
+		opacity:0.8;
 	}	
 
 	#navigation ul{
@@ -101,11 +100,13 @@
 		margin-top:165.3334px;
 		margin-right:24.8px;
 		margin-left:206.69425px;
-    		float:right;
-    		padding:16.5333px;
+    	float:right;
+    	padding:16.5333px;
 		padding-top:4.13335px;
 		border-radius:24.8px;
 		background-color:#F5F5DC;
+		font-family:cursive;
+		font-size:150%
 	}
 
 	#foot{
@@ -190,6 +191,8 @@
 	padding-top:3.75px;
 	border-radius:22.5px;
 	background-color:#F5F5DC;
+	font-family:cursive;
+	font-size:150%;
 	}
 	
 	#foot{
@@ -270,11 +273,13 @@
 		margin-top:93.33333px;
 		margin-right:14px;
 		margin-left:45px;
-    		float:right;
-    		padding:9.333333px;
+    	float:right;
+    	padding:9.333333px;
 		padding-top:2.33333px;
 		border-radius:14px;
 		background-color:#F5F5DC;
+		font-family:cursive;
+		font-size:150%;
 	}
 	
 	#foot{
@@ -350,14 +355,16 @@
 	ul {padding-left:0.933333em;list-style-type:square;}
 	
 	#right {	
-	margin-top:93.33333px;
-	margin-right:14px;
-	margin-left:45px;
+		margin-top:93.33333px;
+		margin-right:14px;
+		margin-left:45px;
     	float:right;
     	padding:9.333333px;
-	padding-top:2.33333px;
-	border-radius:14px;
-	background-color:#F5F5DC;
+		padding-top:2.33333px;
+		border-radius:14px;
+		background-color:#F5F5DC;
+		font-family: cursive;
+		font-size:150%;
 	}
 	
 	#foot{
