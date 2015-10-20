@@ -31,14 +31,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-
-
-
 body{
 	background-image: url('img/navbar.jpg');
-	
+	font-family: cursive;
+    line-height: 1.5;
 }
 
+.myContent{
+    padding: 20px 50px 10px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.image-explain{
+    font-size: 10px;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
 
   </style>
 </head>
@@ -272,258 +286,84 @@ body{
 <body>
 
 <div id = right>
-<div>
-<div id="p2"></div>
-<button>aaaaaa</button>
-chapter1
+    <div id="construction" class="myContent">
+        <h2>Construction of Plasmid Carrying GFP Genes</h2>
+        <p>
+        <h3>Test whether the extracted plasmids from transformed E.coli are correct</h3>
+        <br>
+        Agarose gel electrophoresis of digested plasmids
+        <br><br>
+        </p>
+        <img src="./images/construction.png">
+        <div class="image-explain">
+            1. T7-promoter GFP plasmid + EcoRI
+            <br>
+            2. T7-promoter GFP plasmid + EcoRI & PstI
+            <br>
+            3. 1 kb DNA ladder
+            <br>
+            4. lacI regulated GFP generator plasmid + EcoRI
+            <br>
+            5. lacI regulated GFP generator plasmid + EcoRI & PstI
+            <br>
+            * T7-promoter GFP plasmid stands for pSB1C3 - BBa_I746909 plasmid
+            <br>
+            * lacI regulated GFP generator plasmid stands for pSB1C3 - BBa_K082034 plasmid
+            <br><br>
+        </div>
 
-						<img src="img/test.jpg" class="img-responsive" id="buttonpic">
-smoothly scroll to an <div id="p2"></div>element without a jQuery plugin
-You know that special effect where you click on a link 
-and your browser smoothly<div id="p2"></div> scrolls down to the appropriate 
-section of the page? divtty slick, right? Here are a couple 
-snippets so you can do the same thing on your own website.
-Scroll to a specific element
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-</div>
-
-
-<div>
-chapter2
-Here’s how to programmatically scroll to any element on the page. 
-If you’re using jQuery, you don’t need a plugin. It’s very simple:
-$('html, body').animate({
-    scrollTop: $("#target-element").offset().top
-}, 800);
-This will scroll the page down<div id="p3"></div> to #target-element over a period 
-of one second (1,000 milliseconds = 1 second).
-Scroll to the selected anchor
-You can take things a bit further and animate scrolling for all anchors 
-on your page. The following snippet will watch for clicks on any link that
- points to an anchor and smoothly scroll down to it:
-$('a[href^="#"]').on('click', fu
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, nction(event) {
-    var target = $(this.href);
-    if( target.length ) {
-        event.divventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 800);
-    }
-});
-</div>
-
-
-<div>
-chapter3
-See it in actionJanuary 22, 2010 About the author
-Cory LaViska is a founder, web developer, and bootstrapper
-based in New Hampshire. His current focus is on Surreal CMS,
-an awesome SaaS content management service for web designers. 
-Need to get in touch? You can connect with him on Twitter. 
-Topics Development, Tips Tags javascript, jquery, scrolling
-Activity 0 comments
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-</div>
-
-<div id="p4">chapter4</div>
-<div>
-More Posts
-PHP logo
-Passing data from PHP to JavaScript
-March 4, 2015
-HTML5 logo
-The HTML5 download attribute
-February 19, 2015
-Get comfortable with abstraction
-Get comfortable with abstraction
-February 18, 2015
-Lion
-Thoughts on being a good manager
-February 9, 2015
-Megaphone by a wall
-I should have been asking my users this from the start
-January 20, 2015
-Programming comic
-Why developers hate being interrupted
-January 8, 2015
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-</div>
-
-<div id="p5">chapter5</div>
-<div>
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-123
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, LLC · Est'd 2007 · About · Newsletter · Contact.
-Get free tips, resources, and other web-related goodness right in your inbox.
-Subscribe
-About
-A Beautiful Site is a small web development studio based in Florida and built in 
-New Hampshire. We blog about web design, web development, technology, bootstrapping, startups, and other awesome things.
-Learn more about our company.
-A Beautiful Site, 
-</div>
+        <p>
+        T7-promoter GFP plasmid is 2796 bp and lacI regulated GFP generator plasmid is 3189 bp. 
+        <br><br>
+        After EcoRI digestion and electrophoresis analysis, the molecular size of T7-promoter GFP plasmid is about 2800 bp and lacI regulated GFP generator plasmid is about 4000 bp.
+        <br><br>
+        After EcoRI & PstI digestion and electrophoresis analysis, T7-promoter GFP plasmid is separated into two sequences, 1000 and 2000 bp, and lacI regulated GFP generator plasmid is also separated into two sequences, 1100 and 2000 bp.
+        <br><br>
+        The result of EcoRI digestion reveals that the molecular size of lacI regulated GFP generator plasmid is larger than we expect, thus we decide to conduct electrophoresis of digested lacI regulated GFP generator plasmid again.
+        <br><br>
+        <img src="./images/result2.png">
+        <br><br>
+        The result of electrophoresis shows that lacI regulated GFP generator plasmid is still about 4000 bp and doesn’t correspond to the information provided by iGEM, thus we choose T7-promoter-GFP plasmid to be delivered by NanoNeedle.
+        <br><br>
+        <h3>Find The Best Concentration of Magnesium Ion in The Origami Folding Process
+            -Agarose Gel Electrophoresis</h3>
+        <br><br>
+        <img src="./images/result3.png">
+        <span class="image-explain">*Control: the non-folding mixture of scaffolds and staples at 8 mM MgCl2. We use the control to compare the effect of folding reaction.</span>
+        <br><br>
+        Since the concentration of magnesium ion affects the structure of DNA origami significantly, in the beginning of experiment we try 8 different concentrations from 8 mM to 22 mM MgCl2 in folding reaction. 
+        <br><br>
+        The electrophoresis result reveals that after the folding reaction, bands of scaffolds in the mixture of scaffolds and staples at 14, 16 and 18 mM MgCl2 are less obvious than only scaffolds. We considered scaffolds are folded into DNA origami showing bright areas upper bands of scaffolds, therefore we chose 14, 16 and 18 mM MgCl2 for folding reactions of the mixture of scaffolds, staples, and T7-promoter GFP plasmids.
+        <br><br>
+        <h2>DNA folding reaction</h2>
+        <br><br>
+        <h3>Test whether DNA origami folded wel --agarose gel electrophoresis</h3>
+        <br><br>
+        <img src="./images/result4.png">
+        <span class="image-explain">*control: the non-folding mixture of scaffolds, staples with or without T7-promoter GFP plasmids at 8 mM MgCl2. We use the control to test the effect of folding reaction.</span>
+        <br><br>
+        The electrophoresis result of mixture with plasmids reveals that after the folding reaction, all bands of mixture are less obvious than only scaffolds and plasmids. In addition, there are bright areas upper bands of scaffolds in mixture at 16 and 18 mM MgCl2. Therefore we consider 16 mM MgCl2 is the best concentration for the folding reaction and choose 16 mM MgCl2 for further folding reactions in the functional test.
+        <br><br>
+        <h2>Functional Test</h2>
+        <br><br>
+        <h3>Test whether Nano Needle successfully binds to cell wall of E. coli, penetrates its membrane and delivers T7-promoter plasmid into it.</h3>
+        <br><br>
+        We incubate E. coli with 7 combinations of origami components to test the function of NanoNeedle.
+        <br><br>
+        <ol>
+            <li>T7-promoter GFP plasmid transformed E. coli is positive control</li>
+            <li>without origami component (only folding buffer and MgCl2)</li>
+            <li>with T7-promoter GFP plasmid only</li>
+            <li>with non-T7-promoter GFP plasmid origami </li>
+            <li>with non-folding origami components</li>
+            <li>with origami in LB broth</li>
+            <li>with origami in LB broth (Cp+)</li>
+        </ol>
+        <br>
+        (T7-promoter GFP plasmid carries chloramphenicol-resistance gene. Only E. coli acquiring plasmid from NanoNeedle can live in LB broth containing chloramphenicol)
+        <br><br>
+        </p>
+    </div>
 </div>
 </body>
 
