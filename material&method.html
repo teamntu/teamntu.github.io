@@ -8,6 +8,7 @@
 <script src="./js/vendor/jquery-1.10.2.min.js"></script>
 <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
 <script src="./js/button.js"></script>
+<script src="./js/sidemenu.js"></script>
 <script src="./js/slideshow.js"></script>
 <script src="./js/scrolling.js"></script>
 <script src="./js/stickyheader.js"></script>
@@ -45,8 +46,8 @@ h3{    text-decoration: underline;}
 
 
 
-<body class="test">
-<header class="test">
+
+<header >
 <div id="p1"></div>
 <div id="p2"></div>
 
@@ -118,105 +119,12 @@ h3{    text-decoration: underline;}
 				<!-- Nav -->
 				<nav class="nav">
 					<ul class="nav-list">
-						<li class="nav-item">
-							<a href="?=home">Home</a>
-								<ul class="nav-submenu">
-									<li class="nav-submenu-item">
-										<a href="#">chapter1</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter2</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter3</a>
-									</li>
-								</ul>
-									
-						</li>
-						<li class="nav-item">
-							<a href="?=about">Project</a>
-								<ul class="nav-submenu">
-									<li class="nav-submenu-item">
-										<a href="#">chapter1</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter2</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter3</a>
-									</li>
-								</ul>
-						</li>
-						<li class="nav-item">
-							<a href="?=services">Material & Method</a>
-								<ul class="nav-submenu">
-									<li class="nav-submenu-item">
-										<a href="#">chapter1</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter2</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter3</a>
-									</li>
-								</ul>
-						</li>
-						<li class="nav-item">
-							<a href="?=portfolio">Discussion & Conclusion</a>
-								<ul class="nav-submenu">
-									<li class="nav-submenu-item">
-										<a href="#">chapter1</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter2</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter3</a>
-									</li>
-								</ul>
-						</li>
-						<li class="nav-item">
-							<a href="?=testimonials">Result</a>
-								<ul class="nav-submenu">
-									<li class="nav-submenu-item">
-										<a href="#">chapter1</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter2</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter3</a>
-									</li>
-								</ul>
-						</li>
-						<li class="nav-item">
-							<a href="?=contact">Acknowledgement</a>
-								<ul class="nav-submenu">
-									<li class="nav-submenu-item">
-										<a href="#">chapter1</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter2</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter3</a>
-									</li>
-								</ul>
-						</li>
-						<li class="nav-item">
-							<a href="?=contact">Team</a>
-								<ul class="nav-submenu">
-									<li class="nav-submenu-item">
-										<a href="#">chapter1</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter2</a>
-									</li>
-									<li class="nav-submenu-item">
-										<a href="#">chapter3</a>
-									</li>
-								</ul>
-							</li>
+						<li class="nav-item"><a href="?=home">Home</a></li>
+						<li class="nav-item"><a href="?=services">Project</a></li>
+						<li class="nav-item"><a href="?=services">Material & Method</a></li>
+						<li class="nav-item"><a href="?=portfolio">Discussion & Conclusion</a></li>
+						<li class="nav-item"><a href="?=testimonials">Result</a></li>
+						<li class="nav-item"><a href="?=contact">Team</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -240,9 +148,22 @@ h3{    text-decoration: underline;}
 	</div>
 </div>
 
+<div class="page-main">
+	<aside>
+		<ul>
+			<li><a id="pa1" href="#">chapter1</a></li>
+			<li><a id="pa2" href="#">chapter2</a></li>
+			<li><a id="pa3" href="#">chapter3</a></li>
+			<li><a id="pa4" href="#">chapter4</a></li>
+			<li><a id="pa5" href="#">chapter5</a></li>
+		</ul>
+		<button><img class="image-responsive" src="img/btn_close.png"></button>
+	</aside>
+</div>
+
 
 <body align="justify">
-	<div id = "right">
+	<div  id = "right">
 	<div class = "myContent">
         	<h1>Protocol</h1>
         	<h2>Construction of GFP plasmid</h2>

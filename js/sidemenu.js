@@ -18,7 +18,7 @@ $(function(){
 					left: '-210px'
 				}, duration, 'easeInBack');
 				$asidButton.find('img')
-					.attr('src', 'img/btn_open.png');
+					.attr('src', 'img/btn_close.png');
 			};
 		});
 });
