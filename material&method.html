@@ -34,10 +34,9 @@
 
 
 
-body{
-	background-image: url('img/navbar.jpg');
-	
-}
+body{background-image: url('img/navbar.jpg');}
+h3{    text-decoration: underline;}
+.myContent{padding:20px 50px 10px;}
 
 
   </style>
@@ -248,7 +247,8 @@ body{
 <!--&nbsp;-->
 
 <body>
-	<div id = right>
+	<div id = "right">
+		<div class = "myContent">
         <h1>Protocol</h1>
         <h2>Construction of GFP plasmid</h2>
         <h3><br>Transformation</h3>
@@ -293,10 +293,10 @@ body{
 
         <h4>Procedures</h4>
             <ul>
-                <li>Add 100 ml LB broth into a flask</li>
-                <li>Add 100 μl Cp into a flask</li>
-                <li>Transfer 500 μl broth of mini‐preparation into a flask</li>
-                <li>Put the flask into a 37°C shaking incubator for 15 hours</li>
+                <li>&nbsp;&nbsp;1.&nbsp;Add 100 ml LB broth into a flask</li>
+                <li>&nbsp;&nbsp;2.&nbsp;Add 100 μl Cp into a flask</li>
+                <li>&nbsp;&nbsp;3.&nbsp;Transfer 500 μl broth of mini‐preparation into a flask</li>
+                <li>&nbsp;&nbsp;4.&nbsp;Put the flask into a 37°C shaking incubator for 15 hours</li>
             </ul>
 
 
@@ -330,20 +330,20 @@ body{
         <h3><br>restriction digestion of plasmid</h3>
         <h4>materials and reagents</h4>
             <ul>
-                <li>1. &nbsp;dH2O</li>
-                <li>2. &nbsp;Restriction enzymes EcoRI and PstI</li>
-                <li>3. &nbsp;10X buffer</li>
-                <li>4. &nbsp;Plasmid: pSB1C3 ‐ BBa_I746909 (superfolder GFP driven by T7 promoter)</li>
+                <li>&nbsp;&nbsp;1. &nbsp;dH2O</li>
+                <li>&nbsp;&nbsp;2. &nbsp;Restriction enzymes EcoRI and PstI</li>
+                <li>&nbsp;&nbsp;3. &nbsp;10X buffer</li>
+                <li>&nbsp;4. &nbsp;Plasmid: pSB1C3 ‐ BBa_I746909 (superfolder GFP driven by T7 promoter)</li>
 
         <h4>Procedures</h4>
             <ul>
                 <li>1. &nbsp;Use restriction enzyme EcoRI to digest the plasmid</li>
-                <li>&nbsp;&nbsp;Prepare the mixture for restriction digestion following the table list<br></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Prepare the mixture for restriction digestion following the table list<br></li>
 
               <table style = "width : 70%">
                   <tr>
-                      <td>reagents</td>
-                      <td>volume(μl)</td>
+                      <th>reagents</th>
+                      <th>volume(μl)</th>
                   </tr>
                   <tr>
                       <td>Restriction enzyme EcoRI</td>
@@ -367,12 +367,12 @@ body{
                   </tr>
                 </table>
 
-                <li>2.&nbsp; Use two restriction enzyme EcoRI and PstI to digest the plasmid</li>
-                <li>&nbsp;&nbsp;Prepare the mixture for restriction digestion following the table list<br></li>
+                <li><br>2.&nbsp; Use two restriction enzyme EcoRI and PstI to digest the plasmid</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Prepare the mixture for restriction digestion following the table list<br></li>
                 <table style="width : 70%">
                     <tr>
-                        <td>reagents</td>
-                        <td>volume(μl)</td>
+                        <th>reagents</th>
+                        <th>volume(μl)</th>
                     </tr>
                     <tr>
                         <td>Restriction enzyme EcoRI</td>
@@ -398,18 +398,18 @@ body{
                     <td>20</td>
                 </table>
 
-
-                <li>3. Put the mixture at 37°C for 1 hour</li>
+                <li><br>3. &nbsp;Put the mixture at 37°C for 1 hour</li>
             </ul>
 
             <h3><br>garose gel electrophoresis</h3>
                 <h4>Materials and reagents</h4>
+                <ul>
                     <li>1. &nbsp;Agarose</li>
                     <li>2. &nbsp;1X TAE buffer</li/>
                     <li>3. &nbsp;10X loading dye</li>
                     <li>4. &nbsp;1 kb marker</li>
                     <li>5. &nbsp;Ethidium bromide (EtBr)</li>
-
+		</ul>
 
          <h4>Procedure</h4>
             <ul>
@@ -428,6 +428,224 @@ body{
                 <ul><li>Run the gel at s constant voltage of 100V for 20 min, and then stain the gel with 
                         Ethidium bromide for 10min for UV visualization.</li></ul>
             </ul>
+            
+            <h2><br>DNA folding reaction</h2>
+          <h3> preparation of staple mixtures and scaffolds</h3>
+          <ul>
+		<p>Nano Needle consists of 2 scaffolds, p7249 (M13mp18) and p8064, 427 staples, and 9 staples with aptamers. Three component were respectively 			ordered from tilibit, MDBio, and IDT.</p>
+		<li>1.&nbsp;436 staple tubes are dissolved with MilliQ water according to information provided by the company, and each concentration is 100 µM.</li>
+		<li>2.&nbsp;Then 2.5ul of each staples are added and mixed together, and final concentration of each staple is 100nM.</li>
+		<li>3.&nbsp;We divide each scaffold tubes into 5 tubes for continued experiment, and each concentration is 100nM.</li>
+	 </ul>
+
+	<h3>preparation of folding buffer and MgCl2 solution</h3>
+	<ul>
+		<li>1.&nbsp;We prepare 10X folding buffer containing 50 mM TRIS 8.0, and 10 mM EDTA from 1M TRIS, and 250 mM EDTA stock solution. Then 10X folding 	
+		       buffer goes through filter(0.22μm) to make sure it is sterile.</li>
+		<li>2.&nbsp;We prepare 200 mM MgCl2 solution from 1M MgCl2 stock solution.</li>
+	</ul>
+
+folding reaction without plasmid
+Add the reagents listed in the following table into eppendorfs
+
+
+concentration(nM)
+volume(uL)
+final concentration(nM)
+scaffold
+p7249
+100
+1
+10
+p8064
+100
+1
+10
+staples
+250
+4
+100
+10X folding buffer
+
+
+1
+1X
+MgCl2 solution
+
+
+X
+
+
+dH2O
+
+
+3-X
+
+
+total volume
+
+
+10
+
+
+We try different concentration of MgCl2 solution, including 8, 10, 12, 14, 16, 18, 20, 22mM, to find best concentration for DNA origami folding reaction. Also we prepare a control with lowest concentration of MgCl2 solution and this control will not undergo thermal annealing step.
+final concentration (mM)
+8
+10
+12
+14
+16
+18
+20
+22
+volume
+(ul)
+MgCl2 200mM
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+1.1
+dH2O
+2.6
+2.5
+2.4
+2.3
+2.2
+2.1
+2.0
+1.9
+Put eppendorfs containing mixture of all components into PCR machine and start thermal annealing following the set of temperature change
+temperature change(°C)
+rate
+94→86
+4°C / 5 min
+86→70
+1°C / 5 min
+70→35
+1°C/ 15 min
+35→15
+1°C/ 10 min
+
+agarose gel electrophoresis
+Gel preparation
+Prepare 12-well 0.8% agarose gel with 1X TAE buffer in a total volume of 50 ml
+Use microwave to heat up the solution until boiling and place the solution in water bath to cool down 
+
+Sample loading
+Scaffolds, digested plasmid and folding products are mixed with the 10X loading dye.
+Load all samples and markers into well
+
+Gel running and staining
+Run the gel at s constant voltage of 100V for 20 min, and then stain the gel with Ethidium bromide for 10min for UV visualization.
+
+resctriction digestion of plasmid
+Add the reagents listed in the following table into a eppendorf
+
+
+
+volume(μl)
+dH2O
+12.4
+10X PstI buffer
+2
+pSB1C3 - BBa_I746909
+4
+restriction enzyme PstI
+1.6
+total volume
+20
+Place a eppendorf in a 37°C incubator for 1 hour
+
+
+
+
+
+
+clean up of digested plasmid
+Sample preparation
+Add 100μl DF Buffer to the sample of digested plasmid and mix by vortex
+
+DNA binding
+Place a DF column in a 2 ml Collection Tube
+Transfer the sample mixture to the DF column
+Centrifuge at 14000 xg for 30s
+Discard the flow-through then place the DF column back in the 2ml Collection Tube
+
+wash
+Add 600ul Wash Buffer(make sure ethanol was added) into the center of the DF column
+Let stand for 1 min at room temperature
+Centrifuge at 14000 xg for 30s
+Discard the flow-through and place the DF column back to the 2ml Collection Tube
+Centrifuge for 3min at 14000 xg to dry the column matrix
+
+DNA elution
+Transfer the dried DF column to a new 1.5ml microcentrifuge tube
+Add 20ul of Elution Buffer into the center of the column matrix 
+Let stand for at least 2min to ensure the Elution Buffer is completely absorbed
+Centrifuge for 2min at 14000 xg to elute the purified DNA
+Add flow-through into the center of the column matrix again, and repeat step (3)(4) to increase amount of digested plasmid
+folding reaction with plasmid
+Add the reagents listed in the following table into eppendorfs
+
+
+concentration(nM)
+volume(ul)
+final concentration(nM)
+scaffold
+p7249
+100
+1
+10
+p8064
+100
+1
+10
+staples
+250
+4
+100
+pSB1C3 - BBa_I746909
+100
+1
+10
+10X folding buffer
+
+
+1
+1X
+5XMgCl2
+(70、80、90mM)
+
+
+2
+1X
+total volume
+
+
+10
+
+
+
+Put eppendorfs containing mixture of all components into PCR machine and start thermal annealing following the set of temperature change
+temperature change(°C)
+rate
+94→86
+4°C / 5 min
+86→70
+1°C / 5 min
+70→35
+1°C/ 15 min
+35→15
+1°C/ 10 min
+
+
+
+
+
 
 
             <h1>Equipment</h1>
@@ -468,6 +686,7 @@ body{
                cytotoxicity test.<br><br></p>
 
 		</div>
+	</div>
 	</div>
 </body>
 
