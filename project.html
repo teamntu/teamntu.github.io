@@ -50,8 +50,11 @@ h2{
     width: 100%;
 }
 
+img{
+    width: 100%;
+}
 
-  </style>
+</style>
 </head>
 
 
@@ -357,6 +360,120 @@ h2{
         </p> 
     </div>
     <div id="orgami-design" class="myContent">
+        <h2>Structure design and origami</h2>
+        <p>
+        Our idea is to create a nano-structure. They have the ability to identify the specific pathogenic bacteria, and deliver drugs or plasmid into it.
+        <br><br>
+        Like the syringe, where the plunger expels drugs from the tube into the man's body through the needle, we create a structure which enables us to deliver plasmid in it, and expel them into the target bacteria.
+        <br><br>
+        The NanoNeedle is constituted of 55 DNA double helices. 42 of the double helices have 300 base pairs each that are used to constitute strong structures and weak structures. The other 13 double helices which are much shorter are used to constitute the cover of the "syringe". Looking at the NanoNeedle from the “cover” perspective, three strong structures and three weak structures are arranged in a stagger pattern to form the body of the NanoNeedle (i.e. strong, weak, strong, weak, strong, weak structures in either a clockwise or a counterclockwise direction).
+        <br><br>
+        <ol>
+            <li>
+                Body
+                <br><br>
+                This part of structure is to carry plasmid and stretch to the part that penetrate the cell wall. To meet our goal, we consider to design the shape of the body to be a hollow hexagonal prism.
+                <br><br>
+                 In order to construct the body part that carries plasmid, we need to evaluate the size first. We regard DNA as a cylinder with radius equal to 1.1nm, and the 
+                <br><br>
+                 distance of each base pair is equal to 0.34nm. The plasmid we choose is about 3000 base pairs long. Now we can evaluate the volume of the plasmid:
+                <br><br>
+                (1.1)2π * 0.34 * 3000 = 3877.354(nm)3--------(1)
+                <br><br>
+                 To construct a proper body, we also take our target ---- E. coli into consideration. The cell of E. coli is typically rod-shaped, and is about 2.0 μm long and 0.25–1.0 μm in diameter, with a cell volume of 0.6–0.7 μm3. In order not to kill E. coli when NanoNeedle penetrate into the cell, the structure cannot be too big. We design the hole of the cavity of the body is about 16 cross-sections of DNA, that is
+                <br><br>
+                 (1.1)2π*16=60.821(nm)2--------(2)
+                <br><br>
+                 Divide equation (1) by equation (2), we can evaluate the minimal length of the body is approximately 63.750nm, that is about 190 base pairs.
+                <br><br>
+                 As a whole, the body part is a hollow hexagonal prism with inner diameter of about 4.400nm, outer diameter of about 18.000nm, and the length is about 63.750nm.
+                <br><br>
+                 In addition, to prevent plasmid from escaping from the body, we design some short double helices to seal the plasmid in the structure. There are 13 shorter double helices to constitute the cover on the top. DNA origami should form the enclosed top with mesh structure.
+                <br><br>
+                <img src="./images/cover.png">
+                <span class="image-explain">13 shorter double helices constitute the cover of the Nanoneedle</span>
+            </li>
+            <li>
+                Strong structures
+                <br><br>
+                The syringe uses a needle to stab through the skin. Nanoneedle also has a similar structure, which we call strong structures. Each strong structure is constituted of ten DNA double helices. For the first 84 base pairs, each double helix sticks with each other by using staples, but unlike the body structure, there is no crossover between strong structures and weak structures. While weak structures stick to the cell wall, strong structures will penetrate and span the cell wall and membrane due to their solid structure.
+                <br><br>
+            </li>
+            <li>
+                Weak structures
+                <br><br>
+                Weak structures are soft enough to bend while strong structures stab through the bacteria. Aptamers are equipped on weak structures for several uses.
+                <br><br>
+            </li>
+            <li>
+                Aptamers
+                <br><br>
+                There are three uses for aptamers. One is for binding with other aptamers to close 
+                the opening. Second is identifying and binding with cell walls. Due to the difference 
+                of affinity between aptamers, the weak structures can bend outward, thus, 
+                Nanoneedle can insert plasmid into the bacteria. The last one is binding with the 
+                plasmid. 
+                <br><br>
+                  NanoNeedle targets at E.coli in our experiment design mentioned before, thus we 
+                  search out aptamers only binding to E. coli in previous research of DNA aptamers 
+                  against E.coli using by SELEX [1]. In this research, scientists finally isolated four 
+                  ssDNA aptamers (E1, E2, E10 and E12) showing high affinity and selectivity to E. coli. 
+                  The possible targets of these aptamers are Lipopolysaccharide (LPS), membrane 
+                  proteins and flagella on outer membrane of E.coli.
+                <br><br>
+                The information of these aptamers is in the following table.
+                <img src="/images/table1.png">
+                <br><br>
+                We choose three ssDNA aptamers, E2, E10 and E1, to bind from bottom to middle of weak structure with increasing-affinity. 
+                <br><br>
+                Except for E1, 3’ end of E2 and E10 bind to additional sequences which we design. Each designed aptamer will perform its own function.
+                <br><br>
+                <ol type="I">
+                    <li>
+                        E2
+                        <br><br>
+                        E2 binds to AGGCCT(5’ to 3’) complementary to AGGCCT binding to 3’ end of staple of opposite strong structure. However we cannot ensure base-pairings are all between opposite, they may form between two sides. There are 3 base-pairings are between opposite in optimal condition but at least one will able to close the bottom of NanoNeedle to prevent plasmid moving out of the structure.
+                        <br><br>
+                        <img src="/images/bird-view.png">
+                        <br><br>
+                    </li>
+                    <li>
+                        E10
+                        <br><br>
+                        E10 binds to CTGCA complementary to sticky ends of pSB1C3-BBa_I746909 digested by restriction enzyme PstI as showed in following picture.
+                        <br><br>
+                        <img src="/images/psti.png">
+                        <br><br>
+                        The restriction map of the pSB1C3-BBa_I746909 and the recognition site of PstI are showed in following pictures. This base-paring can make sure plasmid stays inside of NanoNeedle until E10 binds to E.coli.
+                        <br><br>
+                        <img src="/images/restrictionMap.png">
+                        <span class="image-explain">The restriction map of pSB1C3-BBa_I746909</span>
+                        <br><br>
+                        <img src="/images/site.png">
+                        <span class="image-explain">The recognition site of restriction enzyme PstI</span>
+                        <br><br>
+                    </li>
+                    <li>
+                        E1
+                        <br><br>
+                        E1 with greatest affinity binds to middle of weak structure to make sure that NanoNeedle span through the cell membrane of E.coli.
+                        <br><br>
+                        Through our origami design, NanoNeedle will penetrate E. coli through three steps. When NanoNeedle meets E. coli, E2 first binds to components on outer membrane and the weak structure starts to bend. Because affinity of E10 is higher than E2, E10 secondly binds to components bound by E2 before and then releases the plasmid.
+                        <br><br>
+                        Finally E1 binds to the components and the strong structure of NanoNeedle penetrate through the cell membrane to ensure plasmid enter cytoplasm of the E.coli.
+                        <br><br>
+                        Using CaDNAno2, we can construct the whole DNA origami. The structure (i.e. strong structure, weak structure, body) is composed of two templates, p8064 and M13mp18, and staples generated by the build-in function. DNA origami should fold in the shape of hexagonal column and form the enclosed top with mesh structure.
+                        <br><br>
+                        <img src="/images/cadnano.png">
+                        <span class="image-explain">Structure design using Cadnano2</span>
+                        <br><br>
+                    </li>
+                </ol>
+                <br><br>
+                <br><br>
+            </li>
+        </ol>
+        </p>
     </div>
 </div>
 </body>
