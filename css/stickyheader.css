@@ -206,19 +206,22 @@
 	
 		.page-main>aside{
 		background-color:#191970;
-		width:200px;
+		font:white;
+		width:220px;
 		height:300px;
 		opacity:0.9;
 		top:100px;
 		left:-210px;
 		position:fixed;
+		font-size:150%;
 	}
 	
 	.page-main>aside button{
 		background-color:#191970;
+		font:white;
 		opacity:0.8;
 		width:50px;
-		top:30px;
+		top:20px;
 		left:195px;
 		position:absolute;
 		display:block;
@@ -289,20 +292,23 @@
 	
 	.page-main>aside{
 		background-color:#191970;
-		width:200px;
-		height:300px;
+		height:auto;
+		font:white;
+		width:220px;
 		opacity:0.9;
 		top:100px;
 		left:-210px;
 		position:fixed;
+		font-size:100%;
 	}
 	
 	.page-main>aside button{
 		background-color:#191970;
 		opacity:0.8;
+		font:white;
 		width:50px;
-		top:30px;
-		left:195px;
+		top:20px;
+		left:210px;
 		position:absolute;
 		display:block;
 		border:none;
