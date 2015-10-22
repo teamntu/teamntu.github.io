@@ -287,8 +287,8 @@ th, td {
 		margin-top:93.33333px;
 		margin-right:14px;
 		margin-left:45px;
-    	float:right;
-    	padding:9.333333px;
+    		float:right;
+    		padding:9.333333px;
 		padding-top:2.33333px;
 		border-radius:14px;
 		background-color:#F5F5DC;
@@ -351,13 +351,13 @@ th, td {
 	}
 	
 	table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
+    		border: 1px solid black;
+    		border-collapse: collapse;
+	}
 
-th, td {
-    padding: 1px;
-}
+	th, td {
+   	 padding: 1px;
+	}
 }
 
 
@@ -440,12 +440,15 @@ th, td {
 	
 	
 	table{
-    border: 1px solid black;
-    border-collapse: collapse;
-    font-size:70%;
-}
+    		border: 1px solid black;
+    		border-collapse: collapse;
+    		font-size:70%;
+	}
 
-th, td {
-    padding: 1px;
-}
+	th, td {
+    	padding: 1px;
+	}
+	
+	h3{font-size:120%;}
+	h2{font-size:170%;}
 }
