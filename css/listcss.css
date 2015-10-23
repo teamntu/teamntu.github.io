@@ -67,6 +67,7 @@ table, th, td {
 		clear:both;
 		top:195px;
 		border-radius: 10px;
+		padding-bottom: 10px;
 	}
 
 	#navigation2 ul{
