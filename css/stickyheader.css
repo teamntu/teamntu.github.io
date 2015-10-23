@@ -211,9 +211,9 @@
 		height:300px;
 		opacity:0.9;
 		top:100px;
-		left:-210px;
+		left:-220px;
 		position:fixed;
-		font-size:150%;
+		font-size:100%;
 	}
 	
 	.page-main>aside button{
@@ -222,7 +222,7 @@
 		opacity:0.8;
 		width:50px;
 		top:20px;
-		left:195px;
+		left:210px;
 		position:absolute;
 		display:block;
 		border:none;
@@ -297,7 +297,7 @@
 		width:220px;
 		opacity:0.9;
 		top:100px;
-		left:-210px;
+		left:-220px;
 		position:fixed;
 		font-size:100%;
 	}

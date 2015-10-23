@@ -15,7 +15,7 @@ $(function(){
 					.attr('src', 'img/btn_open.png');
 			}else{
 				$aside.stop(true).animate({
-					left: '-210px'
+					left: '-220px'
 				}, duration, 'easeInBack');
 				$asidButton.find('img')
 					.attr('src', 'img/btn_close.png');
