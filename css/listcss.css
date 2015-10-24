@@ -14,11 +14,12 @@ table, th, td {
 	margin-left:10%; 
 }
 
+
 @media screen and (min-width: 1200px){
 
 	pre{background-color:#F5F5DC; position:left; left:30px;}
 	ul {padding-left:2em;list-style-type:none;}
-	.myContent{padding:20px 50px 20px;}
+	.myContent{padding:30px 50px 20px;}
 	
 	#right {	
 		margin-top:200px;
@@ -29,6 +30,7 @@ table, th, td {
 		padding-top:5px;
 		border-radius:30px;
 		background-color:#F5F5DC;
+		font-size:110%;
 	}
 
 	#right2{	
@@ -36,6 +38,7 @@ table, th, td {
 		margin-right:30px;
 		margin-left:30px;
     		float:right;
+    		width:90%;
     		padding:20px;
 		padding-top:5px;
 		border-radius:30px;
@@ -128,6 +131,7 @@ th, td {
 		padding-top:4.13335px;
 		border-radius:24.8px;
 		background-color:#F5F5DC;
+		font-size:110%;
 	}
 
 	#right2 {	
@@ -230,6 +234,7 @@ th, td {
 		padding-top:3.75px;
 		border-radius:22.5px;
 		background-color:#F5F5DC;
+		font-size:110%;
 	}
 
 	#right2 {	
