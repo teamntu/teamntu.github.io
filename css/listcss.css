@@ -21,6 +21,12 @@ table, th, td {
 	ul {padding-left:2em;list-style-type:none;}
 	.myContent{padding:30px 50px 20px;}
 	
+	iframe{
+		width:640px;
+		height:385px;
+		margin-left:15%;
+	}
+	
 	#right {	
 		margin-top:200px;
 		margin-right:30px;
@@ -137,6 +143,12 @@ th, td {
 	
 	ul {padding-left:1.65333em;list-style-type:square;}
 	.myContent{padding:16.6px 41.5px 8.3px;}
+	
+	iframe{
+		width:640px;
+		height:385px;
+		margin-left:15%;
+	}
 	
 	#right {	
 		margin-top:165.3334px;
@@ -256,6 +268,12 @@ th, td {
 	ul {padding-left:1.5em;list-style-type:none;}
 
 	.myContent{padding:14px 37.5px 7.5px;}
+	
+	iframe{
+		width:480px;
+		height:294px;
+		margin-left:10%;
+	}
 	#right {	
 		margin-top:150px;
 		margin-right:22.5px;
@@ -377,6 +395,12 @@ th, td {
 
 	.myContent{padding:9.3333px 23.333px 4.66px;}
 	
+	iframe{
+		width:500px;
+		height:285px;
+		margin-left:0%;
+	}
+	
 	#right {	
 		margin-top:93.33333px;
 		margin-right:14px;
@@ -492,6 +516,12 @@ th, td {
 	
 	ul {padding-left:0.933333em;list-style-type:none;}
 	.myContent{padding:5.332px 13.3335px 2.6667px;}
+	
+	iframe{
+		width:250px;
+		height:175px;
+		margin-left:10%;
+	}
 	
 	#right {	
 		margin-top:93.33333px;
