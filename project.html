@@ -37,9 +37,6 @@ body{
     line-height: 1.5;
 }
 
-.myContent{
-    padding:20px 50px 2px;
-}
 
 h2{
     text-decoration: underline;
@@ -47,12 +44,9 @@ h2{
 
 .image-explain{
     font-size: 10px;
-    width: 100%;
+    margin-left:10%;
 }
 
-img{
-    width: 100%;
-}
 
 </style>
 </head>
@@ -153,8 +147,8 @@ img{
     <div id="container">
 	    <ul id="firstul">
             		    <li><a id="page1" href="#">Background</a></li>
-            		    <li><a id="page2" href="#">Expeiment Design</a></li>
-		    <li><a id="page3" href="#">Structure design and origami</a></li><br>		 
+            		    <li><a id="page2" href="#">Origami design</a></li>
+		    <li><a id="page3" href="#">Expeiment Design</a></li><br>		 
 		</ul>
 	</div>
 </div>
@@ -164,8 +158,8 @@ img{
 	<aside>
 		<ul>
 			<br><li><a id="pa1" href="#">Background</a></li><br>
-			<li><a id="pa3" href="#">Expeiment Design</a></li><br>
-			<li><a id="pa2" href="#">Structure design and origami</a></li><br><br>
+			<li><a id="pa2" href="#">Origami design</a></li><br>
+			<li><a id="pa3" href="#">Expeiment Design</a></li><br><br>
 		</ul>
 		<button><img class="image-responsive" src="img/btn_close.png"></button>
 	</aside>
@@ -180,80 +174,21 @@ img{
        <h1>Project</h1>
         <h2>Background</h2>
         <p>
-        Although there are thousands of antibiotics that have been found and synthesized in the world, some pathogenic bacteria are multiresistant to antibiotics and extremely hard to be eliminated from the human body. For this reason, scientists have been focus on improving present antibiotics and finding other potential antimicrobials. Nevertheless, the process would be extremely time-consuming and relatively high cost.
+        Although there are thousands of antibiotics that have been found and synthesized in the world, some pathogenic bacteria are multiresistant to antibiotics and extremely hard to be eliminated from the human body. For this reason, scientists have been focus on improving present antibiotics and finding other potential antimicrobials. Nevertheless, the process would be extremely time-consuming and relative costly.
         <br><br>
         To tackle this serious issue, we came up with a potential solution - expressing suicide genes in antibiotic-resistant bacteria to interrupt their biofunctions. Eventually, we can not only eliminate the bacteria efficiently but  cure infected patients without bringing any side effects and cell damage.
         <br><br>
-        First, we thought of a way to deliver genes into bacteria is to form a pore by DNA origami. Later, we found that  in previous research ” Synthetic lipid membrane channels formed by designed DNA Nanostructures”, the scientists created transmembrane channels in lipid bilayers using DNA-based nanostructures. Also in this essay, it mentioned that scaffolded DNA origami were used to create a stem that penetrates and spans a lipid membrane, and a barrel-shaped cap that adheres to the membrane via 26 cholesterol. Inspired by this article, we referred to the DNA origami concept and designed an injector called NanoNeedle. NanoNeedle is able to identify specific targets through aptamers and perforate into bacteria.
-        <br><br><div id="p2"></div>
+        First, we thought of a way to deliver genes into bacteria is to form a pore by DNA origami. Later, we found that  in previous research ” Synthetic lipid membrane channels formed by designed<div id="p2"></div> DNA Nanostructures”, the scientists created transmembrane channels in lipid bilayers using DNA-based nanostructures[1]. Also in this essay, it mentioned that scaffolded DNA origami were used to create a stem that penetrates and spans a lipid membrane, and a barrel-shaped cap that adheres to the membrane via 26 cholesterol. Inspired by this paper, we referred to the DNA origami concept and designed an injector called NanoNeedle. NanoNeedle is able to identify specific targets through aptamers and perforate into bacteria.
+        <br><br>
         Aptamers, the single-stranded DNA molecules consisting of oligonucleotides, are the most essential elements we used for the main function of NanoNeedle. Aptamers are powerful and interesting molecules that will bind to  specific targets;  therefore,  we attached the designed aptamers to the weak structures of NanoNeedle for recognizing components of bacterial cell wall. It includes the endotoxin lipopolysaccharide ( LPS ) and outer membrane proteins. As a result, NanoNeedle will be able to deliver the target insert, suicide genes, into the target bacteria to cause death of bacteria and eventually cure diseases.
         </p>
     </div>
 
-    <div id="experiment-design" class="myContent">
-        <h2>Experiment Design</h2>
-        <p>
-        In our project NanoNeedle will perform three functions: 
-        First is to specifically recognize the target antibiotic-resistant bacteria. Second is to penetrate the cell wall and membrane, and finally deliver plasmid into bacteria.
-        <br><br>
-        In our experiment design, we aim to check NanoNeedle can function well and also establish an experimental model for future application. 
-        <br><br>
-        First we choose <i>E. coli</i>, a well-known model organism, as our target bacteria.Second we choose a plasmid carries the Green fluorescent protein (GFP) gene to bind to aptamers inside NanoNeedle because in <i>E. coli</i> system the bright green fluorescence exhibited by GFP can be a marker for us to know whether plasmid is successfully delivered into <i>E. coli</i>. If <i>E. coli </i>incubated with NanoNeedle shows GFP signal when exposed to blue light in flow cytrometry, we can verify that the plasmid is well expressed and Nano Needle successfully performs its functions on <i>E. coli</i>.
-        <br><br>
-        Here we design 5 parts of experiments.
-        <br><br>
-        <ol type="1">
-            <li>
-                Construction a plasmid with GFP gene
-                <br><br>
-                We choose a plasmid pSB1C3-BBa_I746909 to be connected to aptamers in Nano Needle. This plasmid, carrying superfolder GFP gene driven by T7 promoter, can be transformed into <i>E. coli</i> and successfully encode superfolder GFP, a robustly folded version of GFP.
-                <br><br>
-                The initial amount of plasmids is not enough for further experiments, thus we conduct transformation, mini-preparation, midi-preparation and extraction of plasmid to acquire sufficient plasmids.
-                <br><br>
-                <img src="./images/pSB1C3.jpg">
-                <br>
-                <span class="image-explain">
-                    <b>figure 1</b> &nbsp;&nbsp;&nbsp;The map of pSB1C3-BBa_I746909 (synthesized by Cambridge group in iGEM) 
-                </span>
-                <br><br>
-            </li>
-            <li>
-                DNA folding reaction
-                <br><br>
-                Since the concentration of magnesium ion affects the structure of DNA origami significantly, we first conduct the folding reaction of scaffolds and staples and electrophoresis analysis to determine the best concentration of magnesium ion.
-                <br><br>
-                Then we use restriction enzyme <i>Pst</i>I to digest pSB1C3-BBa_I746909 and digested plasmid is able to stay inside NanoNeedle through binding to complimentary sequence at aptamers. Finally we perform complete folding reactions and electrophoresis analysis to test whether our DNA origami is folded.
-                <br><br>
-            </li>
-            <li>
-                TEM imaging
-                <br><br>
-                The 3D structure of NanoNeedle is then confirmed by transmission Electron Microscopy (TEM).
-                <br><br>
-            </li>
-            <li>
-                Functional test
-                <br><br>
-                After TEM imaging to confirm NanoNeedle is folded into correct structure, we need to test its three functions. Here we incubate target bacteria <i>E. coli </i>with NanoNeedle for few hours to test whether <i>E. coli </i>shows obvious GFP signal measured by flow cytometry.
-                <br><br>
-            </li>
-            <li>
-                Cell culture cytotoxicity
-                <br><br>
-                In the future we expect to kill bacteria by delivering NanoNeedle into patients suffered from bacterial infection; therefore we need to confirm that NanoNeedle will not injure human cells by MTT assay.
-                <br><br>
-                MTT assay is a colorimetric assay for assessing cell metabolic activity. MTT 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide, a yellow tetrazole, is reduced to insoluble purple formazan by Succinate dehydrogenase (SDH) in mitochondria of living cells. Dimethyl sulfoxide (DMSO) is added to dissolve formazan into a colored solution. The absorbance of this colored solution can be quantified by measuring at a certain wavelength (usually between 500 and 600 nm) and estimated how many cells are alive.<div id="p3"></div>
-                <br><br>
-                We choose HT29 Cell Line (originates from Human Caucasian colon adenocarcinoma) to be incubated with NanoNeedle and then use ELISA reader to measure absorbance of 595nm for testing the cytotoxicity.
-                <br><br>
-            </li>
-        </ol>
-        </p> 
-    </div>
+    
     <div id="orgami-design" class="myContent">
-        <h2>Structure design and origami</h2>
+        <h2>Origami design</h2>
         <p>
-        Our idea is to create a nano-structure. They have the ability to identify the specific pathogenic bacteria, and deliver drugs or plasmid into it.
+        Our idea is to create a nano-structure. It has the ability to identify the specific pathogenic bacteria, and deliver drugs or plasmid into it.
         <br><br>
         Like the syringe, where the plunger expels drugs from the tube into the man's body through the needle, we create a structure which enables us to deliver plasmid in it, and expel them into the target bacteria.
         <br><br>
@@ -263,15 +198,15 @@ img{
             <li>
                 Body
                 <br><br>
-                This part of structure is to carry plasmid and stretch to the part that penetrate the cell wall. To meet our goal, we consider to design the shape of the body to be a hollow hexagonal prism.
-                <br><br>
+                This part of structure is to carry plasmid and stretch to the part that penetrates the cell wall. To meet our goal, we consider to design the shape of the body to be a hollow hexagonal prism.
+                <br>
                  In order to construct the body part that carries plasmid, we need to evaluate the size first. We regard DNA as a cylinder with radius equal to 1.1nm, and the 
-                <br><br>
+                <br>
                  distance of each base pair is equal to 0.34nm. The plasmid we choose is about 3000 base pairs long. Now we can evaluate the volume of the plasmid:
                 <br><br>
                 (1.1)2π * 0.34 * 3000 = 3877.354(nm)3--------(1)
                 <br><br>
-                 To construct a proper body, we also take our target ---- <i>E. coli </i>into consideration. The cell of <i>E. coli</i> is typically rod-shaped, and is about 2.0 μm long and 0.25–1.0 μm in diameter, with a cell volume of 0.6–0.7 μm3. In order not to kill <i>E. coli </i>when NanoNeedle penetrate into the cell, the structure cannot be too big. We design the hole of the cavity of the body is about 16 cross-sections of DNA, that is
+                 To construct a proper body, we also take our target ---- <i>E. coli </i>into consideration. The cell of <i>E. coli</i> is typically rod-shaped, and is about 2.0 μm long and 0.25–1.0 μm in diameter, with a cell volume of 0.6–0.7 μm3. In order not to kill <i>E. coli </i>when NanoNeedle penetrates into the cell, the structure cannot be too big. We design the hole of the cavity of the body is about 16 cross-sections of DNA, that is
                 <br><br>
                  (1.1)2π*16=60.821(nm)2--------(2)
                 <br><br>
@@ -281,11 +216,11 @@ img{
                 <br><br>
                  In addition, to prevent plasmid from escaping from the body, we design some short double helices to seal the plasmid in the structure. There are 13 shorter double helices to constitute the cover on the top. DNA origami should form the enclosed top with mesh structure.
                 <br><br>
-                <img src="./images/cover.png">
-                <span class="image-explain">13 shorter double helices constitute the cover of the Nanoneedle</span>
+                <img style="width:60%; height:45%;margin-left:10%;" src="./images/cover.png">
+                <span class="image-explain"><br>13 shorter double helices constitute the cover of the Nanoneedle</span>
             </li>
             <li>
-                Strong structures
+                <br>Strong structures
                 <br><br>
                 The syringe uses a needle to stab through the skin. Nanoneedle also has a similar structure, which we call strong structures. Each strong structure is constituted of ten DNA double helices. For the first 84 base pairs, each double helix sticks with each other by using staples, but unlike the body structure, there is no crossover between strong structures and weak structures. While weak structures stick to the cell wall, strong structures will penetrate and span the cell wall and membrane due to their solid structure.
                 <br><br>
@@ -299,23 +234,19 @@ img{
             <li>
                 Aptamers
                 <br><br>
-                There are three uses for aptamers. One is for binding with other aptamers to close 
-                the opening. Second is identifying and binding with cell walls. Due to the difference 
-                of affinity between aptamers, the weak structures can bend outward, thus, 
-                Nanoneedle can insert plasmid into the bacteria. The last one is binding with the 
-                plasmid. 
+              There are three uses for aptamers. One is identifying and binding with cell walls. Due to the difference of affinity between aptamers, the weak structures can bend outward, thus, Nanoneedle can insert plasmid into the bacteria. Second is closing the opening.The last one is binding with the plasmid.
                 <br><br>
                   NanoNeedle targets at<i> E. coli </i> our experiment design mentioned before, thus we 
                   search out aptamers only binding to <i>E. coli</i> in previous research of DNA aptamers 
-                  against <i>E. coli</i>using by SELEX [1]. In this research, scientists finally isolated four 
+                  against <i>E. coli</i>using by SELEX [2]. In this research, scientists finally isolated four 
                   ssDNA aptamers (E1, E2, E10 and E12) showing high affinity and selectivity to <i>E. coli</i>. 
-                  The possible targets of these aptamers are Lipopolysaccharide (LPS), membrane 
+                  The possible targets of these aptamers are lipopolysaccharide (LPS), membrane 
                   proteins and flagella on outer membrane of<i> E. coli</i>
                 <br><br>
                 The information of these aptamers is in the following table.
                 <img src="/images/table1.png">
                 <br><br>
-                We choose three ssDNA aptamers, E2, E10 and E1, to bind from bottom to middle of weak structure with increasing-affinity. 
+                Chose three ssDNA aptamers, E2, E10 and E1, to bind from bottom to middle of weak structure with increasing-affinity. 
                 <br><br>
                 Except for E1, 3’ end of E2 and E10 bind to additional sequences which we design. Each designed aptamer will perform its own function.
                 <br><br>
@@ -351,12 +282,13 @@ img{
                         <br><br>
                         Through our origami design, NanoNeedle will penetrate <i>E. coli</i> through three steps. When NanoNeedle meets <i>E. coli</i>, E2 first binds to components on outer membrane and the weak structure starts to bend. Because affinity of E10 is higher than E2, E10 secondly binds to components bound by E2 before and then releases the plasmid.
                         <br><br>
-                        Finally E1 binds to the components and the strong structure of NanoNeedle penetrate through the cell membrane to ensure plasmid enter cytoplasm of the <i>E. coli</i>.
+                        Finally E1 binds to the components and the strong structure of NanoNeedle penetrates through the cell membrane to ensure plasmid enter cytoplasm of the <i>E. coli</i>.
                         <br><br>
-                        Using CaDNAno2, we can construct the whole DNA origami. The structure (i.e. strong structure, weak structure, body) is composed of two templates, p8064 and M13mp18, and staples generated by the build-in function. DNA origami should fold in the shape of hexagonal column and form the enclosed top with mesh structure.
+                        Using CaDNAno2, we can construct the whole NanoNeedle. The structure (i.e. strong structure, weak structure, body) is composed of two templates, p8064 and M13mp18, and staples generated by the build-in function. NanoNeedle should fold in the shape of hexagonal column and form the enclosed top with mesh structure.
+                        <div id="p3"></div>
                         <br><br>
                         <img src="/images/cadnano.png">
-                        <span class="image-explain">Structure design using Cadnano2</span>
+                        <span class="image-explain">Structure design using CaDNAno2</span>
                         <br><br>
                     </li>
                 </ol>
@@ -366,7 +298,73 @@ img{
         </ol>
         </p>
     </div>
+    <div id="experiment-design" class="myContent">
+        <h2>Experiment Design</h2>
+        <p>
+        In our project NanoNeedle will perform three functions: 
+        First is to specifically recognize the target antibiotic-resistant bacteria. Second is to penetrate the cell wall and membrane, and finally deliver plasmid into bacteria.
+        <br><br>
+        In our experiment design, we aim to check NanoNeedle can function well and also establish an experimental model for future application. 
+        <br><br>
+        First we choose <i>E. coli</i>, a well-known model organism, as our target bacteria.Second we choose a plasmid carries the Green fluorescent protein (GFP) gene to bind to aptamers inside NanoNeedle because in <i>E. coli</i> system the bright green fluorescence exhibited by GFP can be a marker for us to know whether plasmid is successfully delivered into <i>E. coli</i>. If <i>E. coli </i>incubated with NanoNeedle shows GFP signal when exposed to blue light in flow cytrometry, we can verify that the plasmid is well expressed and NanoNeedle successfully performs its functions on <i>E. coli</i>.
+        <br><br>
+        Here we design 5 parts of experiments.
+        <br><br>
+        <ol type="1">
+            <li>
+                Construction a plasmid with the GFP gene
+                <br><br>
+                We choose a plasmid pSB1C3-BBa_I746909 to be connected to aptamers in NanoNeedle. This plasmid, carrying superfolder the GFP gene driven by T7-promoter, can be transformed into <i>E. coli</i> and successfully encode superfolder GFP, a robustly folded version of GFP.
+                <br><br>
+                The initial amount of plasmids is not enough for further experiments, thus we conduct transformation, mini-preparation, midi-preparation and extraction of plasmid to acquire sufficient plasmids.
+                <br><br>
+                <img style="width:60%; height:45%;margin-left:10%;" src="./images/pSB1C3.jpg">
+                <br>
+                <span class="image-explain">
+                    <b>figure 1</b> &nbsp;&nbsp;&nbsp;The map of pSB1C3-BBa_I746909 (synthesized by Cambridge group in iGEM) 
+                </span>
+                <br><br>
+            </li>
+            <li>
+                DNA folding reaction
+                <br><br>
+                Since the concentration of magnesium ion affects the structure of DNA origami significantly, we first conduct the folding reaction of scaffolds and staples and electrophoresis analysis to determine the best concentration of magnesium ion.
+                <br><br>
+                Then we use restriction enzyme <i>Pst</i>I to digest pSB1C3-BBa_I746909 and digested plasmid is able to stay inside NanoNeedle through binding to complimentary sequence at aptamers. Finally we perform complete folding reactions and electrophoresis analysis to test whether our DNA origami is folded.
+                <br><br>
+            </li>
+            <li>
+                TEM imaging
+                <br><br>
+                The 3D structure of NanoNeedle is then confirmed by transmission electron microscopy (TEM).
+                <br><br>
+            </li>
+            <li>
+                Functional test
+                <br><br>
+                After TEM imaging to confirm NanoNeedle is folded into correct structure, we need to test its three functions. Here we incubate target bacteria <i>E. coli </i>with NanoNeedle for few hours to test whether <i>E. coli </i>shows obvious GFP signal measured by flow cytometry.
+                <br><br>
+            </li>
+            <li>
+                Cell culture cytotoxicity
+                <br><br>
+                In the future we expect to kill bacteria by delivering NanoNeedle into patients suffered from bacterial infection; therefore we need to confirm that NanoNeedle will not injure human cells by MTT assay.
+                <br><br>
+                MTT assay is a colorimetric assay for assessing cell metabolic activity. MTT 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide, a yellow tetrazole, is reduced to insoluble purple formazan by Succinate dehydrogenase (SDH) in mitochondria of living cells. Dimethyl sulfoxide (DMSO) is added to dissolve formazan into a colored solution. The absorbance of this colored solution can be quantified by measuring at a certain wavelength (usually between 500 and 600 nm) and estimated how many cells are alive.
+                <br><br>
+                We choose HT29 Cell Line (originates from Human Caucasian colon adenocarcinoma) to be incubated with NanoNeedle and then use ELISA reader to measure absorbance of 595nm for testing the cytotoxicity.
+                <br><br>
+            </li>
+        </ol>
+        </p> 
+         <p>_______________________________</p>
+        <p>[1]Langecker, M., Arnaut, V., Martin T.G., et al.(2012). Synthetic lipid membrane channels formed by designed DNA nanostructures. Science<i> 338</i>, 932–936.<br><br>
+
+[2]Kim, Y.S., Song, M.Y., Jurng, J., et al.(2013).Isolation and characterization of DNA aptamers against Escherichia coli using a bacterial cell–systematic evolution of ligands by exponential enrichment approach. Anal. Biochem 436, 22–28</p>
+    </div>
 </div>
+
+
 </body>
 
 
@@ -376,21 +374,5 @@ img{
 	</div>
 </footer>
 
-	<!--<div class="slideshow" >
-			<a href="#" class="slide" id="slide-1"><img class="img-ciricle" src="./img/slide-1.jpg" alt="" width="400%" height="200%"></a>
-			<a href="#" class="slide" id="slide-2"><img class="img-responsive" src="./img/slide-2.jpg" alt="" width="400" height="200"></a>
-			<a href="#" class="slide" id="slide-3"><img class="img-responsive" src="./img/slide-3.jpg" alt="" width="400" height="200"></a>
-			<a href="#" class="slide" id="slide-4"><img class="img-responsive" src="./img/slide-4.jpg" alt="" width="400" height="200"></a>
-	</div>-->
-	
-<!--<div >
-<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/KVSOrdJ6jUQ" frameborder="0" style="margin-left: 150px;> </iframe>
-</div>-->
-<script>
-$('#toggle').click(function() {
-   $(this).toggleClass('active');
-   $('#overlay').toggleClass('open');
-  });
-</script>
 	
 </html> 

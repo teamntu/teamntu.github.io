@@ -37,9 +37,6 @@ body{
     line-height: 1.5;
 }
 
-.myContent{
-    padding: 20px 50px 5px;
-}
 
 h2{
     text-decoration: underline;
@@ -50,9 +47,6 @@ h2{
     width: 100%;
 }
 
-img{
-    width: 100%;
-}
 
   </style>
 </head>
@@ -179,23 +173,23 @@ img{
 <div id = right>
     <div id="construction" class="myContent">
         <h1>Result</h1>
-        <h2>Construction of Plasmid Carrying GFP Genes</h2>
+        <h2>Construction of Plasmid Carrying the GFP genes</h2>
         <h3>Test whether the extracted plasmids from transformed <i>E.coli</i> are correct</h3>
         <br>
         Agarose gel electrophoresis of digested plasmids
         <br><br>
         </p>
-        <img src="./images/construction.png">
+        <img    src="./images/construction.png"  >
         <div class="image-explain">
             1. T7-promoter GFP plasmid + <i>Eco</i>RI
             <br>
-            2. T7-promoter GFP plasmid + <i>Eco</i>RI & PstI
+            2. T7-promoter GFP plasmid + <i>Eco</i>RI & <i>Pst</i>I
             <br>
             3. 1 kb DNA ladder
             <br>
             4. lacI regulated GFP generator plasmid + <i>Eco</i>RI
             <br>
-            5. lacI regulated GFP generator plasmid + <i>Eco</i>RI & PstI
+            5. lacI regulated GFP generator plasmid + <i>Eco</i>RI & <i>Pst</i>I
             <br>
             * T7-promoter GFP plasmid stands for pSB1C3 - BBa_I746909 plasmid
             <br>
@@ -208,11 +202,11 @@ img{
         <br><br>
         After <i>Eco</i>RI digestion and electrophoresis analysis, the molecular size of T7-promoter GFP plasmid is about 2800 bp and lacI regulated GFP generator plasmid is about 4000 bp.
         <br><br>
-        After <i>Eco</i>RI & PstI digestion and electrophoresis analysis, T7-promoter GFP plasmid is separated into two sequences, 1000 and 2000 bp, and lacI regulated GFP generator plasmid is also separated into two sequences, 1100 and 2000 bp.
+        After <i>Eco</i>RI & <i>Pst</i>I digestion and electrophoresis analysis, T7-promoter GFP plasmid is separated into two sequences, 1000 and 2000 bp, and lacI regulated GFP generator plasmid is also separated into two sequences, 1100 and 2000 bp.
         <br><br>
         The result of <i>Eco</i>RI digestion reveals that the molecular size of lacI regulated GFP generator plasmid is larger than we expect, thus we decide to conduct electrophoresis of digested lacI regulated GFP generator plasmid again.
         <br><br>
-        <img src="./images/result2.png">
+        <img style="width:60%; height:45%;margin-left:10%;" src="./images/result2.png">
         <br><br>
         The result of electrophoresis shows that lacI regulated GFP generator plasmid is still about 4000 bp and doesn’t correspond to the information provided by iGEM, thus we choose T7-promoter-GFP plasmid to be delivered by NanoNeedle.
         <br><br>
@@ -220,7 +214,7 @@ img{
             -Agarose Gel Electrophoresis</h3>
         <br><br>
         <img src="./images/result3.png">
-        <span class="image-explain">*Control: the non-folding mixture of scaffolds and staples at 8 mM MgCl2. We use the control to compare the effect of folding reaction.</span>
+        <span class="image-explain"><br>*Control: the non-folding mixture of scaffolds and staples at 8 mM MgCl2. We use the control to compare the effect of folding reaction.</span>
         <br><br>
         Since the concentration of magnesium ion affects the structure of DNA origami significantly, in the beginning of experiment we try 8 different concentrations from 8 mM to 22 mM MgCl2 in folding reaction. 
         <br><br>
@@ -232,14 +226,14 @@ img{
         <h3>Test whether DNA origami folded wel --agarose gel electrophoresis</h3>
         <br><br>
         <img src="./images/result4.png">
-        <span class="image-explain">*control: the non-folding mixture of scaffolds, staples with or without T7-promoter GFP plasmids at 8 mM MgCl2. We use the control to test the effect of folding reaction.</span>
+        <span class="image-explain"><br>*control: the non-folding mixture of scaffolds, staples with or without T7-promoter GFP plasmids at 8 mM MgCl2. We use the control to test the effect of folding reaction.</span>
         <br><br>
         <div id="p3"></div>
         The electrophoresis result of mixture with plasmids reveals that after the folding reaction, all bands of mixture are less obvious than only scaffolds and plasmids. In addition, there are bright areas upper bands of scaffolds in mixture at 16 and 18 mM MgCl2. Therefore we consider 16 mM MgCl2 is the best concentration for the folding reaction and choose 16 mM MgCl2 for further folding reactions in the functional test.
         <br><br>
         <h2>Functional Test</h2>
         <br><br>
-        <h3>Test whether Nano Needle successfully binds to cell wall of <i>E. coli</i>, penetrates its membrane and delivers T7-promoter plasmid into it.</h3>
+        <h3>Test whether NanoNeedle successfully binds to cell wall of <i>E. coli</i>, penetrates its membrane and delivers T7-promoter plasmid into it.</h3>
         <br><br>
         We incubate<i> E. coli</i> with 7 combinations of origami components to test the function of NanoNeedle.
         <br><br>
