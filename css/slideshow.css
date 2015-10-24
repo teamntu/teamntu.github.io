@@ -1,10 +1,31 @@
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px) {
 .slideshow {
-	left:-220px;
+	left:-150px;
     overflow: hidden;
     position: relative;
-    min-width: 960px;
-    height: 465px;
+    min-width: 800px;
+    height: 350px;
+}
+
+.slideshow img {
+    	display: none;
+	position:absolute;
+    	left:50%;
+    	margin-left: -200px;
+	top:20px;
+}
+
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width:1199px){
+.slideshow {
+	left:-120px;
+    overflow: hidden;
+    position: relative;
+    min-width: 600px;
+    height: 350px;
 }
 
 .slideshow img {
@@ -21,11 +42,11 @@
 
 @media screen and (min-width: 770px) and (max-width:991px){
 .slideshow {
-	left:-200px;
+	left:-50px;
     overflow: hidden;
     position: relative;
-    min-width: 800px;
-    height: 400px;
+    min-width: 400px;
+    height: 350px;
 }
 
 .slideshow img {
@@ -68,7 +89,7 @@
 .slideshow {
 	left:-350px;
     position: relative;
-    min-width: 320px;
+    min-width: 200px;
     height: 200px;
 }
 
