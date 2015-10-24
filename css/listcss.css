@@ -16,7 +16,7 @@ table, th, td {
 
 
 @media screen and (min-width: 1200px){
-
+	body{font:cursive;}
 	pre{background-color:#F5F5DC; position:left; left:30px;}
 	ul {padding-left:2em;list-style-type:none;}
 	.myContent{padding:30px 50px 20px;}
@@ -37,7 +37,6 @@ table, th, td {
 		border-radius:30px;
 		background-color:#F5F5DC;
 		font-size:110%;
-		font:cursive;
 	}
 
 	#right2{	
@@ -143,7 +142,7 @@ th, td {
 	
 	ul {padding-left:1.65333em;list-style-type:square;}
 	.myContent{padding:16.6px 41.5px 8.3px;}
-	
+	body{font:cursive;};
 	iframe{
 		width:640px;
 		height:385px;
