@@ -144,27 +144,47 @@
 		background-color:#191970;
 		opacity:0.8;
 		height:135px;
+		margin-top:-3000px;
 	}
 	
 	.page-main>aside{
 		background-color:#191970;
-		width:50px;
-		height:100%;
-		opacity:0.8;
-		left:-100px;
-		top:-3000px;
+		font:white;
+		width:220px;
+		height:300px;
+		opacity:0.9;
+		top:100px;
+		left:-220px;
 		position:fixed;
+		font-size:100%;
+		margin-top:-3000px;
 	}
+	.page-main>aside button{
+		background-color:#191970;
+		font:white;
+		opacity:0.8;
+		width:50px;
+		top:20px;
+		left:210px;
+		position:absolute;
+		display:block;
+		border:none;
+		}
 	
 	.mobilenav{
-		position:fixed;
+		position:absolute;
 		width: 100%;
 		transition:top .5s;
 	}
 
-	.mobilenav > div{
-		margin-top:-3000px;
+	.mobilenav>div{
+		padding:10px 0 10px;
+		background-color:#191970;
+		opacity:0.9;
+		height:70px;
+		margin-top:-150px;
 	}
+
 	
 	.header2{
 		top:150px;
@@ -174,6 +194,14 @@
 	.gizle{
 		top:-200px;
 	}	
+	
+	.dropdown{
+		width:100px;
+	}
+
+	.dropdown > li{
+		width:100%;
+	}
 }
 
 
