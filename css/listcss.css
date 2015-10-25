@@ -37,6 +37,7 @@ table, th, td {
 		border-radius:30px;
 		background-color:#F5F5DC;
 		font-size:110%;
+		font-family:cursive;
 	}
 
 	#right2{	
@@ -50,7 +51,7 @@ table, th, td {
 		border-radius:30px;
 		background-color:#F5F5DC;
 		font-size:110%;
-		font:cursive;
+		font-family:cursive;
 	}
 	
 	#right3{	
@@ -159,7 +160,7 @@ th, td {
 		border-radius:24.8px;
 		background-color:#F5F5DC;
 		font-size:110%;
-		font:cursive;
+		font-family:cursive;
 	}
 
 	#right2 {	
@@ -172,7 +173,7 @@ th, td {
 		border-radius:24.8px;
 		background-color:#F5F5DC;
 		font-size:110%;
-		font:cursive;
+		font-family:cursive;
 	}
 	#right3{	
 		margin-top:200px;
