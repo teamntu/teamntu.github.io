@@ -5,6 +5,7 @@
     position: relative;
     min-width: 800px;
     height: 350px;
+    z-index: 1000px;
 }
 
 .slideshow img {
@@ -13,6 +14,7 @@
     	left:50%;
     	margin-left: -200px;
 	top:20px;
+	z-index: 1000px;
 }
 
 .slideshow2 {
@@ -41,6 +43,7 @@
     position: relative;
     min-width: 600px;
     height: 350px;
+    z-index: 0;
 }
 
 .slideshow img {
@@ -49,6 +52,7 @@
     	left:50%;
     	margin-left: -200px;
 	top:20px;
+	z-index: 0;
 }
 
 .slideshow2 {
